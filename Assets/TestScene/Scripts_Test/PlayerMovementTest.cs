@@ -29,7 +29,7 @@ public class PlayerMovementTest : MonoBehaviour
         Debug.Log("scene started! Yay!");
         bouncy = false;
         groundSpeed = 10;
-        AirSpeed = 5;
+        AirSpeed = 7;
         airDrag = 0.1f;
         stopForce = 30;
         downForce = 10;
