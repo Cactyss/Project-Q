@@ -6,6 +6,7 @@ using UnityEngine.Experimental.Rendering;
 
 public class PlayerMovementTest : MonoBehaviour
 {
+
     public bool bouncy;
     public LayerMask ground;
     public float castDistance;
@@ -111,10 +112,19 @@ public class PlayerMovementTest : MonoBehaviour
         {
             player.velocity = speedVector2 * new Vector2(-1 , player.velocity.y);
         }
+        OffMap();
     }
     //Checks If Grounded
     public bool IsGrounded()
     {
          return (Physics2D.BoxCast(player.transform.position, boxSize, 0, -transform.up, castDistance, ground));
     } 
+    // checks if the player is below the group, if so, they are teleported back
+    public void OffMap()
+    {
+        if (player.transform.position.y < -10)
+        {
+            player.transform.position = new Vector2(0, 5);
+        }
+    }
 }
