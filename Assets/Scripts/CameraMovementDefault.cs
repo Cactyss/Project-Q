@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
+public class CameraMovementTest : MonoBehaviour
 {
     public Transform MyCamera;
     public Transform target;
