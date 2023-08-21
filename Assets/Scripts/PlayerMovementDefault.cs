@@ -30,7 +30,7 @@ public class PlayerMovementTest : MonoBehaviour
         Debug.Log("scene started! Yay!");
         bouncy = false;
         groundSpeed = 10;
-        AirSpeed = 7;
+        AirSpeed = 10;
         airDrag = 0.1f;
         stopForce = 30;
         downForce = 10;
@@ -62,8 +62,8 @@ public class PlayerMovementTest : MonoBehaviour
         downVector = new Vector2(player.velocity.x, -downForce);
         jumpVector = new Vector2(player.velocity.x, jumpForce);
 
-        //Stopping When Hold "S"
-        if (Input.GetKey("s"))
+        //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
+        if (Input.GetKey("s")  && player.velocity.y < 20)
         {
             //instant stop
             //  if (!isGrounded) { player.velocity = new Vector2(0, -15); }
@@ -96,7 +96,7 @@ public class PlayerMovementTest : MonoBehaviour
             }
         }
         else
-        { 
+        {
             if (Input.GetKeyDown("space") && isGrounded)
             {
                 player.AddForce(jumpVector, ForceMode2D.Force);
@@ -110,9 +110,18 @@ public class PlayerMovementTest : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            player.velocity = speedVector2 * new Vector2(-1 , player.velocity.y);
+            player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
         }
-        OffMap();
+        // Reset if player presses r (and player isn't at the start)
+        if ((Input.GetKey(KeyCode.R) && (player.transform.position.x > 1 || (player.transform.position.x < -1))))
+        {
+            ResetPlayer();
+        }
+        // Reset is player is off the map (down too far)
+        if (player.transform.position.y < -10)
+        {
+            ResetPlayer();
+        }
     }
     //Checks If Grounded
     public bool IsGrounded()
@@ -120,11 +129,9 @@ public class PlayerMovementTest : MonoBehaviour
          return (Physics2D.BoxCast(player.transform.position, boxSize, 0, -transform.up, castDistance, ground));
     } 
     // checks if the player is below the group, if so, they are teleported back
-    public void OffMap()
+    public void ResetPlayer()
     {
-        if (player.transform.position.y < -10)
-        {
-            player.transform.position = new Vector2(0, 5);
-        }
+        player.velocity = new Vector2(0, 0);
+        player.transform.position = new Vector2(0, 1);
     }
 }

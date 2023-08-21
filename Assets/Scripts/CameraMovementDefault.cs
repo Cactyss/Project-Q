@@ -13,7 +13,18 @@ public class CameraMovementTest : MonoBehaviour
     // sets camera position to player position with a SmoothDamp
     void FixedUpdate()
     {
-        MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3 (0, -target.position.y + 5, -10), ref velocity, smoothSpeed);
+        if (target.position.y < 15.5)
+        {
+            MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, -target.position.y + 5, -10), ref velocity, smoothSpeed);
+        }
+        else if (target.position.y < 35.5)
+        {
+            MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, -target.position.y + 24.5f, -10), ref velocity, smoothSpeed);
+        }
+        else if (target.position.y < 54)
+        {
+            MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, -target.position.y + 43.5f, -10), ref velocity, smoothSpeed);
+        }
     }
 
 
