@@ -11,7 +11,6 @@ public class JumpPadScriptDefault : MonoBehaviour
     private void Start()
     {
         Collided = true;
-        JumpPadForce = 20f;
         jumpVector = new Vector2(0, JumpPadForce);
     }
     private void OnTriggerEnter2D(Collider2D collision)

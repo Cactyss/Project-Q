@@ -6,20 +6,27 @@ using UnityEngine.Experimental.Rendering;
 
 public class PlayerMovementTest : MonoBehaviour
 {
-
+    private bool shouldStop;
+    public float maxspeed;
+    public bool gravityYes;
+    public float gravity;
+    private Vector2 spawnPos; 
     public bool bouncy;
     public LayerMask ground;
-    public float castDistance;
+    private float castDistance;
     public Transform GroundCheck;
     public Rigidbody2D player;
-    bool isGrounded;
-    public int groundSpeed;
-    public int AirSpeed;
-    int speed2;
+    private bool isGrounded;
+    public float groundSpeed;
+    public float AirSpeed;
+    float speed2;
     public int stopForce;
     public int downForce;
     public int jumpForce;
-    public float airDrag = 0.1f;
+    public float airDrag;
+    public float airAngleDrag;
+    public float groundDrag;
+    public float groundAngleDrag;
     public Vector2 speedVector2 = new Vector2(1, 1);
     public Vector2 stopVector = new Vector2(1, 1);
     public Vector2 downVector = new Vector2(1, 1);
@@ -27,66 +34,109 @@ public class PlayerMovementTest : MonoBehaviour
     public Vector2 boxSize = new Vector2(1, 1);
     private void Start()
     {
+        castDistance = 1;
+        spawnPos = player.position;
         Debug.Log("scene started! Yay!");
         bouncy = false;
-        groundSpeed = 10;
-        AirSpeed = 10;
-        airDrag = 0.1f;
+        //groundSpeed = 8.5;
+        //AirSpeed = 8.5;
+        //airDrag = 0.1f;
+        //airAngleDrag = 0f;
+        //groundDrag = 1.5f;
+        //GroundAngleDrag = 0f;
         stopForce = 30;
         downForce = 10;
         jumpForce = 10;
-        airDrag = 0.1f;
+        gravity = 1.05f;
+        maxspeed = 12;
+        shouldStop = false;
+    }
+    private void FixedUpdate()
+    {
+        playerPhysicsGravity();
     }
     void Update()
     {
         /** Does Update() mean that movement is tied to fps? **/
 
-        //Checks the IsGrouned() method once, and sets it as a boolean
-        isGrounded = IsGrounded();
-        //Removes Air Friction, Keeps Ground Friction (changes values)
-        if (isGrounded)
+        ChangeVariables();
+
+        playerMoveJump();
+
+        playerMoveStop();
+
+        if (!shouldStop) { playerMoveLeftRight(); }
+
+        checkReset();
+    }
+    /** MAIN METHODS **/
+
+    public void playerMoveLeftRight()
+    {
+        //movement (set velocity)
+        if (Input.GetKey(KeyCode.D))
         {
-            speed2 = groundSpeed;
-            player.drag = 1.5f;
-            player.angularDrag = 1f;
+            if (player.velocity.x < 10)
+            {
+                player.velocity = speedVector2 * new Vector2(1, player.velocity.y);
+            }
+            else if (player.velocity.x < maxspeed)
+            {//speed up to maxspeed at a decelerating rate
+                player.velocity = player.velocity + (new Vector2(((maxspeed - player.velocity.x)) * Time.deltaTime, 0));
+            }
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            if (player.velocity.x > -10)
+            {
+                player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
+            }
+            else if (player.velocity.x > -maxspeed)
+            {//speed up to maxspeed at a decelerating rate
+                player.velocity = player.velocity + (new Vector2((-(player.velocity.x + maxspeed)) * Time.deltaTime, 0));
+            }
+
+        }
+    }
+    //Checks for stop input
+    public void playerMoveStop()
+    {
+        
+        //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
+        if (Input.GetKey("s") && player.velocity.y < 20)
+        {
+            shouldStop = true;
+            //instant stop
+             // { player.velocity = new Vector2(0, player.velocity.y); }
+
+            // exponential stop
+            if (player.velocity.x > 0.05f) 
+            { //stop all x movement exponentially
+                //player.velocity = (new Vector2(player.velocity.x * 0.99f, player.velocity.y));
+                player.velocity = player.velocity + (new Vector2(-40 * Time.deltaTime, 0));
+            }
+            if (player.velocity.x < -0.05f)
+            {
+                player.velocity = player.velocity + (new Vector2(40 * Time.deltaTime, 0));
+            }
+
+            //stop y movement
+            /** if (player.velocity.y > -3)
+             { 
+                 player.velocity = (new Vector2(player.velocity.x, -3));
+             }
+             if (!isGrounded && player.velocity.y > -10f)
+             {
+                 player.velocity = (new Vector2(player.velocity.x, player.velocity.y * 1.5f *  Time.deltaTime));
+             } **/
         }
         else
         {
-            speed2 = AirSpeed;
-            player.drag = airDrag;
-            player.angularDrag = airDrag;
+            shouldStop = false;
         }
-        //sets the variables with any changed values (sets variables)
-        speedVector2 = new Vector2(speed2, 1);
-        stopVector = new Vector2(stopForce, 1);
-        downVector = new Vector2(player.velocity.x, -downForce);
-        jumpVector = new Vector2(player.velocity.x, jumpForce);
-
-        //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
-        if (Input.GetKey("s")  && player.velocity.y < 20)
-        {
-            //instant stop
-            //  if (!isGrounded) { player.velocity = new Vector2(0, -15); }
-            //  else { player.velocity = new Vector2(0, 0); }
-
-            //slow stop
-            //  if (!isGrounded) { player.AddForce(downVector); }
-            // if (player.velocity.x > 0) { player.AddForce(stopVector * new Vector2(-1, 1)); }
-            // else if (player.velocity.x < 0) { player.AddForce(stopVector); }
-
-            // exponential stop
-            if (player.velocity.x > 0.1f) { player.velocity = (new Vector2(player.velocity.x * 0.99f, player.velocity.y)); }
-            else if (player.velocity.x < -0.1f) { player.velocity = (new Vector2(player.velocity.x * 0.99f, player.velocity.y)); }
-            if (player.velocity.y > -3)
-            {
-                player.velocity = (new Vector2(player.velocity.x, -3));
-            }
-            if (!isGrounded && player.velocity.y > -10f)
-            {
-                player.velocity = (new Vector2(player.velocity.x, player.velocity.y * 1.5f));
-            }
-        }
-
+    }
+    public void playerMoveJump()
+    {
         //Jump Script (has a toggle for bouncy mode)
         if (bouncy)
         {
@@ -103,15 +153,62 @@ public class PlayerMovementTest : MonoBehaviour
                 Debug.Log("jump");
             }
         }
-        //movement (set velocity)
-        if (Input.GetKey(KeyCode.D))
+    }
+    //changes player gravity/physics based on which level of atmosphere they are in (for now just makes them go down fast on ground level, once they are already going down a certian speed)
+    public void playerPhysicsGravity()
+    {
+        //ground level
+        if (player.position.y < 15.5)
         {
-            player.velocity = speedVector2 * new Vector2(1, player.velocity.y);
+            gravityYes = true;
         }
-        if (Input.GetKey(KeyCode.A))
+        //sky 
+        else if (player.position.y < 35.5)
         {
-            player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
+            gravityYes = false;
         }
+        //pretty high yo!
+        else if (player.position.y < 54)
+        {
+            gravityYes = false;
+        }
+        //space
+        else
+        {
+            gravityYes = false;
+        }
+
+        if (player.velocity.y < -0.5 && player.velocity.y > -18 && gravityYes)
+        {
+           // player.velocity = player.velocity + new Vector2(0, player.velocity.y * gravity * Time.deltaTime);
+            player.AddForce(new Vector2(0, gravity * Time.deltaTime));
+        }
+    }
+    public void  ChangeVariables()
+    {
+        //Checks the IsGrouned() method once, and sets it as a boolean
+        isGrounded = IsGrounded();
+        //Removes Air Friction, Keeps Ground Friction (changes values)
+        if (isGrounded)
+        {
+            speed2 = groundSpeed;
+            player.drag = groundDrag;
+            player.angularDrag = groundAngleDrag;
+        }
+        else
+        {
+            speed2 = AirSpeed;
+            player.drag = airDrag;
+            player.angularDrag = airAngleDrag;
+        } 
+        //sets the variables with any changed values (sets variables)
+        speedVector2 = new Vector2(speed2, 1);
+        stopVector = new Vector2(stopForce, 1);
+        downVector = new Vector2(player.velocity.x, -downForce * Time.deltaTime);
+        jumpVector = new Vector2(player.velocity.x, jumpForce * Time.deltaTime);
+    }
+    public void checkReset()
+    {
         // Reset if player presses r (and player isn't at the start)
         if ((Input.GetKey(KeyCode.R) && (player.transform.position.x > 1 || (player.transform.position.x < -1))))
         {
@@ -123,15 +220,20 @@ public class PlayerMovementTest : MonoBehaviour
             ResetPlayer();
         }
     }
+
+
+    /** OTHER METHODS **/
+
     //Checks If Grounded
     public bool IsGrounded()
     {
-         return (Physics2D.BoxCast(player.transform.position, boxSize, 0, -transform.up, castDistance, ground));
-    } 
+        return (Physics2D.BoxCast(player.transform.position, boxSize, 0, -transform.up, castDistance, ground));
+    }
     // checks if the player is below the group, if so, they are teleported back
     public void ResetPlayer()
     {
         player.velocity = new Vector2(0, 0);
-        player.transform.position = new Vector2(0, 1);
+        player.transform.position = spawnPos;
     }
+
 }

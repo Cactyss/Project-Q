@@ -25,6 +25,10 @@ public class CameraMovementTest : MonoBehaviour
         {
             MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, -target.position.y + 43.5f, -10), ref velocity, smoothSpeed);
         }
+        else
+        {
+            MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, 3, -10), ref velocity, smoothSpeed);
+        }
     }
 
 
