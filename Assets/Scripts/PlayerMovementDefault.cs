@@ -14,7 +14,6 @@ public class PlayerMovementTest : MonoBehaviour
     public bool bouncy;
     public LayerMask ground;
     private float castDistance;
-    public Transform GroundCheck;
     public Rigidbody2D player;
     private bool isGrounded;
     public float groundSpeed;
@@ -49,6 +48,13 @@ public class PlayerMovementTest : MonoBehaviour
         jumpForce = 10;
         gravity = 1.05f;
         maxspeed = 12;
+        groundSpeed = 10;
+        AirSpeed = 10;
+        airDrag = 0.1f;
+        airAngleDrag = 0;
+        groundDrag = 1.5f;
+        groundAngleDrag = 0;
+
         shouldStop = false;
     }
     private void FixedUpdate()

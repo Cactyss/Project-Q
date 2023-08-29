@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 public class PlayerSettings : MonoBehaviour
 {
     public GameObject GoodJobText;
-    public GameObject Panel;
+    public GameObject SettingsPanel;
     public TextMeshProUGUI GroundSpeed;
     public TMP_Text AirSpeed;
     public GameObject player;
@@ -17,7 +17,7 @@ public class PlayerSettings : MonoBehaviour
     {
         
         GoodJobText.SetActive(false);
-        Panel.SetActive(false);
+        SettingsPanel.SetActive(false);
         Time.timeScale = 1;
     }
 
@@ -27,8 +27,8 @@ public class PlayerSettings : MonoBehaviour
         //enables or disables time and the settings UI based on if they are enabled or disabled already
         if (Input.GetKeyDown("escape"))
         {
-            Panel.SetActive(!Panel.activeSelf);
-            if (Panel.activeSelf)
+            SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+            if (SettingsPanel.activeSelf)
             {
                 Time.timeScale = 0;
             }
