@@ -18,6 +18,7 @@ public class PlayerMovementTest : MonoBehaviour
     private bool isGrounded;
     public float groundSpeed;
     public float AirSpeed;
+    int satiated;
     float speed2;
     public int stopForce;
     public int downForce;
@@ -26,13 +27,21 @@ public class PlayerMovementTest : MonoBehaviour
     public float airAngleDrag;
     public float groundDrag;
     public float groundAngleDrag;
-    public Vector2 speedVector2 = new Vector2(1, 1);
-    public Vector2 stopVector = new Vector2(1, 1);
-    public Vector2 downVector = new Vector2(1, 1);
-    public Vector2 jumpVector = new Vector2(1, 1);
-    public Vector2 boxSize = new Vector2(1, 1);
+    public Vector2 speedVector2;
+    public Vector2 stopVector;
+    public Vector2 downVector;
+    public Vector2 jumpVector;
+    public Vector2 boxSize;
+    float velocityTemp;
+    public int boostValue;
     private void Start()
     {
+        boostValue = 15;
+        speedVector2 = new Vector2(1, 1);
+        stopVector = new Vector2(1, 1);
+        downVector = new Vector2(1, 1); 
+        jumpVector = new Vector2(1, 1);
+        boxSize = new Vector2(1, 1);
         castDistance = 1;
         spawnPos = player.position;
         Debug.Log("scene started! Yay!");
@@ -54,7 +63,7 @@ public class PlayerMovementTest : MonoBehaviour
         airAngleDrag = 0;
         groundDrag = 1.5f;
         groundAngleDrag = 0;
-
+        satiated = 0;
         shouldStop = false;
     }
     private void FixedUpdate()
@@ -73,6 +82,8 @@ public class PlayerMovementTest : MonoBehaviour
 
         if (!shouldStop) { playerMoveLeftRight(); }
 
+        playerMoveBoost();
+
         checkReset();
     }
     /** MAIN METHODS **/
@@ -82,15 +93,14 @@ public class PlayerMovementTest : MonoBehaviour
         //movement (set velocity)
         if (Input.GetKey(KeyCode.D))
         {
-            if (player.velocity.x < maxspeed)
+            if (player.velocity.x < maxspeed && player.velocity.x > -maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(1, player.velocity.y);
             }
-            else if (player.velocity.x > maxspeed)
+            else if (player.velocity.x > maxspeed || player.velocity.x < -maxspeed)
             {
-                //NEEDS ATTENTION, the plan here is to maintane horizontal speed (regardless of direction) given the player changes direction AND the speed is ovedr the maxspeed
-              
-                    
+                SeteVelocityTemp();
+                player.velocity = new Vector2(velocityTemp, player.velocity.y);
             }
             /**
             else if (player.velocity.x < maxspeed)
@@ -100,13 +110,14 @@ public class PlayerMovementTest : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            if (player.velocity.x > -1 * maxspeed)
+            if (player.velocity.x < maxspeed && player.velocity.x > -maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
             }
-            else if(player.velocity.x < -1 * maxspeed)
+            else if (player.velocity.x > maxspeed || player.velocity.x < -maxspeed)
             {
-
+                SeteVelocityTemp();
+                player.velocity = new Vector2(velocityTemp * -1, player.velocity.y);
             }
             
             /**
@@ -152,6 +163,33 @@ public class PlayerMovementTest : MonoBehaviour
         else
         {
             shouldStop = false;
+        }
+    }
+    public void playerMoveBoost()
+    {
+        //if (mechanic) add 1 out of 4 possible boost material
+        if(Input.GetKeyDown(KeyCode.K) && satiated < 100) 
+        {//just for test, will make getting BOOST resourse a mechanic later
+            satiated = satiated + 25;
+            Debug.Log("K");
+            Debug.Log(satiated);
+        }
+        if(Input.GetKeyDown(KeyCode.J) && satiated >= 25)
+        {
+
+            if (player.velocity.x > 0)
+            {
+                boostValue = Mathf.Abs(boostValue);
+            }
+            else
+            {
+                boostValue = Mathf.Abs(boostValue) * -1;
+            }
+            //BOOST with J
+            player.velocity = new Vector2(player.velocity.x + 15 , player.velocity.y + 5);
+            satiated = satiated - 25;
+            Debug.Log("J");
+            Debug.Log(satiated);
         }
     }
     public void playerMoveJump()
@@ -254,5 +292,8 @@ public class PlayerMovementTest : MonoBehaviour
         player.velocity = new Vector2(0, 0);
         player.transform.position = spawnPos;
     }
-
+    public void SeteVelocityTemp()
+    {
+        velocityTemp = Mathf.Abs(player.velocity.x);
+    }
 }
