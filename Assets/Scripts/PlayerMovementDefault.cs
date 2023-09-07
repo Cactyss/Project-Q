@@ -48,8 +48,8 @@ public class PlayerMovementTest : MonoBehaviour
         jumpForce = 10;
         gravity = 1.05f;
         maxspeed = 12;
-        groundSpeed = 10;
-        AirSpeed = 10;
+        groundSpeed = 12;
+        AirSpeed = 12;
         airDrag = 0.1f;
         airAngleDrag = 0;
         groundDrag = 1.5f;
@@ -82,25 +82,38 @@ public class PlayerMovementTest : MonoBehaviour
         //movement (set velocity)
         if (Input.GetKey(KeyCode.D))
         {
-            if (player.velocity.x < 10)
+            if (player.velocity.x < maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(1, player.velocity.y);
             }
+            else if (player.velocity.x > maxspeed)
+            {
+                //NEEDS ATTENTION, the plan here is to maintane horizontal speed (regardless of direction) given the player changes direction AND the speed is ovedr the maxspeed
+              
+                    
+            }
+            /**
             else if (player.velocity.x < maxspeed)
             {//speed up to maxspeed at a decelerating rate
-                player.velocity = player.velocity + (new Vector2(((maxspeed - player.velocity.x)) * Time.deltaTime, 0));
-            }
+              player.velocity = player.velocity + (new Vector2(((maxspeed - player.velocity.x)) * Time.deltaTime, 0));
+            } */
         }
         if (Input.GetKey(KeyCode.A))
         {
-            if (player.velocity.x > -10)
+            if (player.velocity.x > -1 * maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
             }
+            else if(player.velocity.x < -1 * maxspeed)
+            {
+
+            }
+            
+            /**
             else if (player.velocity.x > -maxspeed)
             {//speed up to maxspeed at a decelerating rate
-                player.velocity = player.velocity + (new Vector2((-(player.velocity.x + maxspeed)) * Time.deltaTime, 0));
-            }
+              player.velocity = player.velocity + (new Vector2((-(player.velocity.x + maxspeed)) * Time.deltaTime, 0));
+            }*/
 
         }
     }

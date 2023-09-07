@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6842879833988750773
 SpriteRenderer:
@@ -123,7 +123,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 51501890243997864}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 76dcc576c1a4cd141938599bed4fc8b0, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -161,23 +161,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69813563fcf3a943a1974f2efaf945a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxspeed: 0
+  gravityYes: 0
+  gravity: 0
+  bouncy: 0
   ground:
     serializedVersion: 2
     m_Bits: 64
-  castDistance: 1
-  GroundCheck: {fileID: 0}
   player: {fileID: 6841008992649117273}
-  speed: 10
-  speed2: 10
-  speed3: 10
-  speed4: 10
+  groundSpeed: 0
+  AirSpeed: 0
   stopForce: 30
   downForce: 10
   jumpForce: 10
-  speedVector: {x: 1, y: 1}
+  airDrag: 0
+  airAngleDrag: 0
+  groundDrag: 0
+  groundAngleDrag: 0
   speedVector2: {x: 1, y: 1}
-  speedVector3: {x: 1, y: 1}
-  speedVector4: {x: 1, y: 1}
   stopVector: {x: 1, y: 1}
   downVector: {x: 1, y: 1}
   jumpVector: {x: 1, y: 1}
