@@ -6,6 +6,7 @@ using UnityEngine.Experimental.Rendering;
 
 public class PlayerMovementTest : MonoBehaviour
 {
+    GameObject[] blue;
     private bool shouldStop;
     public float maxspeed;
     public bool gravityYes;
@@ -33,9 +34,10 @@ public class PlayerMovementTest : MonoBehaviour
     public Vector2 jumpVector;
     public Vector2 boxSize;
     float velocityTemp;
-    public int boostValue;
+    public float boostValue;
     private void Start()
     {
+        blue = GameObject.FindGameObjectsWithTag("Blue");
         boostValue = 15;
         speedVector2 = new Vector2(1, 1);
         stopVector = new Vector2(1, 1);
@@ -56,9 +58,9 @@ public class PlayerMovementTest : MonoBehaviour
         downForce = 10;
         jumpForce = 10;
         gravity = 1.05f;
-        maxspeed = 12;
-        groundSpeed = 12;
-        AirSpeed = 12;
+        maxspeed = 10;
+        groundSpeed = 10;
+        AirSpeed = 10;
         airDrag = 0.1f;
         airAngleDrag = 0;
         groundDrag = 1.5f;
@@ -167,16 +169,9 @@ public class PlayerMovementTest : MonoBehaviour
     }
     public void playerMoveBoost()
     {
-        //if (mechanic) add 1 out of 4 possible boost material
-        if(Input.GetKeyDown(KeyCode.K) && satiated < 100) 
-        {//just for test, will make getting BOOST resourse a mechanic later
-            satiated = satiated + 25;
-            Debug.Log("K");
-            Debug.Log(satiated);
-        }
-        if(Input.GetKeyDown(KeyCode.J) && satiated >= 25)
+        if(Input.GetKeyDown(KeyCode.J) && satiated >= 25 && isGrounded)
         {
-
+            boostValue = player.velocity.x * 3f;
             if (player.velocity.x > 0)
             {
                 boostValue = Mathf.Abs(boostValue);
@@ -186,7 +181,8 @@ public class PlayerMovementTest : MonoBehaviour
                 boostValue = Mathf.Abs(boostValue) * -1;
             }
             //BOOST with J
-            player.velocity = new Vector2(player.velocity.x + 15 , player.velocity.y + 5);
+            player.velocity = new Vector2(player.velocity.x + boostValue , player.velocity.y * 1.3f);
+            //player.velocity = new Vector2(player.velocity.x + player.velocity.x * boostValue, player.velocity.y);
             satiated = satiated - 25;
             Debug.Log("J");
             Debug.Log(satiated);
@@ -241,7 +237,7 @@ public class PlayerMovementTest : MonoBehaviour
             player.AddForce(new Vector2(0, gravity * Time.deltaTime));
         }
     }
-    public void  ChangeVariables()
+    public void ChangeVariables()
     {
         //Checks the IsGrouned() method once, and sets it as a boolean
         isGrounded = IsGrounded();
@@ -257,12 +253,25 @@ public class PlayerMovementTest : MonoBehaviour
             speed2 = AirSpeed;
             player.drag = airDrag;
             player.angularDrag = airAngleDrag;
-        } 
+        }
         //sets the variables with any changed values (sets variables)
         speedVector2 = new Vector2(speed2, 1);
         stopVector = new Vector2(stopForce, 1);
         downVector = new Vector2(player.velocity.x, -downForce * Time.deltaTime);
         jumpVector = new Vector2(player.velocity.x, jumpForce * Time.deltaTime);
+    }
+
+    public void OnCollisionStay2D(Collision2D collision)
+    {
+        Debug.Log("step 1");
+        if (collision.gameObject.tag == "Blue" && Input.GetKey(KeyCode.K) && satiated < 50)
+        {
+            Debug.Log("step 2");
+            satiated = satiated + 25;
+            Debug.Log(satiated);
+            //Destroy(collision.gameObject); Disable or destroy?
+            collision.gameObject.SetActive(false);
+        }
     }
     public void checkReset()
     {
@@ -291,6 +300,12 @@ public class PlayerMovementTest : MonoBehaviour
     {
         player.velocity = new Vector2(0, 0);
         player.transform.position = spawnPos;
+        satiated = 0;
+        foreach (GameObject b in blue)
+        {
+            b.SetActive(true);
+        }
+
     }
     public void SeteVelocityTemp()
     {
