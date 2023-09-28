@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68c040b2300cb1e43b365ed211907c58
+guid: a5b2b504d057bdf4aabdf5692f841cd8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 10
+    spritePixelsToUnits: 16
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638314403972077951
+  platformSettingsDirtyTick: 638314396365862158
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,38 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Cloud1_Frame_0
+  - name: Blobert Rabbit Rabbi No Suit
     originalName: 
-    pivot: {x: 0.49367085, y: -0.8684211}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 99
-      width: 79
-      height: 38
-    spriteID: d506c4a8a3979984db7a151f8e42e5bb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 99}
-  - name: Cloud1_Frame_1
-    originalName: 
-    pivot: {x: 0.48148146, y: -0.82500005}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 81
-      height: 40
-    spriteID: 5aacd157594af8e4296450b7c3a0bdbe
+      width: 16
+      height: 32
+    spriteID: 48a8caad6ebe20644a7e48db395e291f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,58 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Cloud1_Frame_2
+  - name: Blobert Rabbit Rabbi No Suit_Frame_1
     originalName: 
-    pivot: {x: 0.48148146, y: -0.8461539}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 94
-      y: 52
-      width: 81
-      height: 39
-    spriteID: 6ab2940206ca4ee4aa90eb5603c62932
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 94, y: 52}
-  - name: Cloud1_Frame_3
-    originalName: 
-    pivot: {x: 0.46341464, y: -0.82051283}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 52
-      width: 82
-      height: 39
-    spriteID: 2ec8d69e70d2b704ebae47056c3adbbf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 52}
-  - name: Cloud1_Frame_4
-    originalName: 
-    pivot: {x: 0.48148146, y: -0.82500005}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 93
+      x: 28
       y: 4
-      width: 81
-      height: 40
-    spriteID: c80a03982c50af84598364b24fa65f3b
+      width: 16
+      height: 32
+    spriteID: 7f35e8b2af76a8e408113df96f96cf2e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,140 +158,32 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 93, y: 4}
-  - name: Cloud1_Frame_5
-    originalName: 
-    pivot: {x: 0.5076923, y: -0.97142863}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 183
-      y: 52
-      width: 65
-      height: 35
-    spriteID: a2e4df43234a6d046971e64f8df459c9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 183, y: 52}
-  - name: Cloud1_Frame_6
-    originalName: 
-    pivot: {x: 0.5151515, y: -0.9411764}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 182
-      y: 4
-      width: 66
-      height: 34
-    spriteID: 888972cc68542494eb065063e2c1bb1e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 182, y: 4}
-  - name: Cloud1_Frame_7
-    originalName: 
-    pivot: {x: 0.5151515, y: -0.9411764}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 91
-      y: 99
-      width: 66
-      height: 34
-    spriteID: 9d073edd021752941a717eadd351c043
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 91, y: 99}
+    uvTransform: {x: 28, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1579886858
-    name: Cloud1
+    guid: 1724182038
+    name: Blobert Rabbit Rabbi No Suit
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Cloud1_Frame_0
+    - name: Blobert Rabbit Rabbi No Suit_Frame_0
       frameIndex: 0
       cellRect:
-        x: 11
-        y: 33
-        width: 79
-        height: 38
-      spriteId: d506c4a8a3979984db7a151f8e42e5bb
-    - name: Cloud1_Frame_1
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      spriteId: 48a8caad6ebe20644a7e48db395e291f
+    - name: Blobert Rabbit Rabbi No Suit_Frame_1
       frameIndex: 1
       cellRect:
-        x: 11
-        y: 33
-        width: 81
-        height: 40
-      spriteId: 5aacd157594af8e4296450b7c3a0bdbe
-    - name: Cloud1_Frame_2
-      frameIndex: 2
-      cellRect:
-        x: 11
-        y: 33
-        width: 81
-        height: 39
-      spriteId: 6ab2940206ca4ee4aa90eb5603c62932
-    - name: Cloud1_Frame_3
-      frameIndex: 3
-      cellRect:
-        x: 12
-        y: 32
-        width: 82
-        height: 39
-      spriteId: 2ec8d69e70d2b704ebae47056c3adbbf
-    - name: Cloud1_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 11
-        y: 33
-        width: 81
-        height: 40
-      spriteId: c80a03982c50af84598364b24fa65f3b
-    - name: Cloud1_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 17
-        y: 34
-        width: 65
-        height: 35
-      spriteId: a2e4df43234a6d046971e64f8df459c9
-    - name: Cloud1_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 16
-        y: 32
-        width: 66
-        height: 34
-      spriteId: 888972cc68542494eb065063e2c1bb1e
-    - name: Cloud1_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 16
-        y: 32
-        width: 66
-        height: 34
-      spriteId: 9d073edd021752941a717eadd351c043
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      spriteId: 7f35e8b2af76a8e408113df96f96cf2e
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -405,4 +237,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 100, y: 100}
+  canvasSize: {x: 16, y: 32}

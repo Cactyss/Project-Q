@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31916032beb698c46bb7d8dc8027f683
+guid: 585d9ac7d8174464ebb3954395748236
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: whispy cloud
+  - name: Blobert Rabbit Coat
     originalName: 
-    pivot: {x: 0.53488374, y: -0.13725491}
+    pivot: {x: 0.5714286, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 86
-      height: 51
-    spriteID: 51a02fc090460ac4bb3d91fd75055ee2
+      width: 14
+      height: 32
+    spriteID: 8bef6765fb7533341badc98663c2c5e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 111833721
-    name: whispy cloud
+    guid: -1960732597
+    name: Blobert Rabbit Coat
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: whispy cloud
+    - name: Blobert Rabbit Coat
       frameIndex: 0
       cellRect:
-        x: 4
-        y: 7
-        width: 86
-        height: 51
-      spriteId: 51a02fc090460ac4bb3d91fd75055ee2
+        x: 0
+        y: 0
+        width: 14
+        height: 32
+      spriteId: 8bef6765fb7533341badc98663c2c5e8
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 100, y: 100}
+  canvasSize: {x: 16, y: 32}
