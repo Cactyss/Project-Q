@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 585d9ac7d8174464ebb3954395748236
+guid: ab7a725ff1370f04d99f343993388529
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Blobert Rabbit Coat
+  - name: Collumn
     originalName: 
-    pivot: {x: 0.53333336, y: 0}
+    pivot: {x: 0.45, y: -0.20000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 15
-      height: 32
-    spriteID: 8bef6765fb7533341badc98663c2c5e8
+      width: 10
+      height: 25
+    spriteID: 93bb0f4ede5f94748947fd30ed507ce8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,23 +142,23 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1960732597
-    name: Blobert Rabbit Coat
+    guid: -1095918552
+    name: Collumn
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Blobert Rabbit Coat
+    - name: Collumn
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 15
-        height: 32
-      spriteId: 8bef6765fb7533341badc98663c2c5e8
+        x: 2
+        y: 5
+        width: 10
+        height: 25
+      spriteId: 93bb0f4ede5f94748947fd30ed507ce8
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 32}
+  canvasSize: {x: 13, y: 34}
