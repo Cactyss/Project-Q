@@ -121,14 +121,14 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Blobert Rabbit BLUR
     originalName: 
-    pivot: {x: 0.5714286, y: 0}
+    pivot: {x: 0.53846157, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 14
+      width: 13
       height: 32
     spriteID: 79d29e69f551a1c4a99b22a0ebddba33
     spriteBone: []
@@ -151,9 +151,9 @@ ScriptedImporter:
     - name: Blobert Rabbit BLUR
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 1
         y: 0
-        width: 14
+        width: 13
         height: 32
       spriteId: 79d29e69f551a1c4a99b22a0ebddba33
     linkedCells: []
