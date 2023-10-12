@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a981b7e08d9e4c4f94e98db8649b43a
+guid: 14fb30b3f1e7e634183fbe78eed934e8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -23,7 +23,7 @@ ScriptedImporter:
     normalMapFilter: 0
     flipGreenChannel: 0
     swizzle: 50462976
-    isReadable: 1
+    isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 10
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638320462695979284
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Heaven 2
+  - name: Heaven 3_Frame_11
     originalName: 
-    pivot: {x: 1.171875, y: -0.91176474}
+    pivot: {x: 1.796875, y: -0.91176474}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 4
+      x: 166
+      y: 1936
       width: 64
       height: 68
-    spriteID: d2515a7b7f71f604a92ae76145fc3ca2
+    spriteID: 14f963ed4f064684090b0e71037b42d1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,19 +138,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 4}
-  - name: Heaven 2_Frame_12
+    uvTransform: {x: 166, y: 1936}
+  - name: Heaven 3_Frame_12
     originalName: 
-    pivot: {x: 0.79787236, y: -0.3541667}
+    pivot: {x: 1.2234043, y: -0.3541667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 653
-      y: 556
+      x: 353
+      y: 1936
       width: 94
       height: 96
-    spriteID: 7852994e35c791c4e94bf1b853ae9620
+    spriteID: 4c9e3d838d6c49d4c8e59e0a274c12bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,19 +158,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 653, y: 556}
-  - name: Heaven 2_Frame_13
+    uvTransform: {x: 353, y: 1936}
+  - name: Heaven 3_Frame_13
     originalName: 
-    pivot: {x: 0.7281553, y: -0.3265306}
+    pivot: {x: 1.1165049, y: -0.3265306}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 542
-      y: 556
+      x: 242
+      y: 1936
       width: 103
       height: 98
-    spriteID: 584f2787ae5b48a49a2cff243b3303fd
+    spriteID: 8367ca02378a5f440949512082f7792b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,99 +178,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 542, y: 556}
-  - name: Heaven 2_Frame_14
+    uvTransform: {x: 242, y: 1936}
+  - name: Heaven 3_Frame_14
     originalName: 
-    pivot: {x: 0.5597015, y: -0.092436984}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 400
-      y: 556
-      width: 134
-      height: 119
-    spriteID: 7fe9e4db7387cb84fb362588572a3a9d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 400, y: 556}
-  - name: Heaven 2_Frame_15
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 556
-      width: 150
-      height: 130
-    spriteID: c6f7c35bde5a5644b8a0874f7a867748
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 556}
-  - name: Heaven 2_Frame_16
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 230
-      height: 130
-    spriteID: 6ab6cc51fb13ffb48be36de047b3b9a5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: Heaven 2_Frame_17
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 4
-      width: 230
-      height: 130
-    spriteID: 037c0e9e01f4d5444925c8fc6e4bb216
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 4}
-  - name: Heaven 2_Frame_18
-    originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.85820895, y: -0.092436984}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 480
       y: 4
-      width: 230
-      height: 130
-    spriteID: 2c1da3e246160844faf857c730bfcc39
+      width: 134
+      height: 119
+    spriteID: 5433018f8a2f2a84f96e5d3a95f5407d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,18 +199,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 480, y: 4}
-  - name: Heaven 2_Frame_19
+  - name: Heaven 3_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.76666665, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 718
-      y: 4
-      width: 230
+      x: 242
+      y: 1798
+      width: 150
       height: 130
-    spriteID: 96ddb01d0db6ccf42ba4e6fe14e04c62
+    spriteID: 1c7414f9c2cfa5249940af91270a910e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -298,8 +218,28 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 718, y: 4}
-  - name: Heaven 2_Frame_20
+    uvTransform: {x: 242, y: 1798}
+  - name: Heaven 3_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 230
+      height: 130
+    spriteID: 7aec5eab664efb343adab35dd9fe9ce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Heaven 3_Frame_17
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -310,7 +250,7 @@ ScriptedImporter:
       y: 142
       width: 230
       height: 130
-    spriteID: 2bdc607e790ecfe4aa45b791ea935250
+    spriteID: 5282dca1dbeac16459f56cb4eeee554c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -319,67 +259,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 142}
-  - name: Heaven 2_Frame_21
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 142
-      width: 230
-      height: 130
-    spriteID: 2711145fb801e8845af3f01e70a768ec
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 142}
-  - name: Heaven 2_Frame_0
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 480
-      y: 142
-      width: 230
-      height: 130
-    spriteID: 12a1841d4cef6ac439367e3555c35c71
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 480, y: 142}
-  - name: Heaven 2_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 718
-      y: 142
-      width: 230
-      height: 130
-    spriteID: 0970c32333262a14f89e225a63e7dfe4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 718, y: 142}
-  - name: Heaven 2_Frame_2
+  - name: Heaven 3_Frame_18
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -390,7 +270,7 @@ ScriptedImporter:
       y: 280
       width: 230
       height: 130
-    spriteID: 6c9710dd45f82c647ac1db69a7487a25
+    spriteID: eded9a8175076c249a60dc723c4bf7c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -399,67 +279,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 280}
-  - name: Heaven 2_Frame_3
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 280
-      width: 230
-      height: 130
-    spriteID: 375b4db0ebcf3ed4e817cde664602135
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 280}
-  - name: Heaven 2_Frame_4
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 480
-      y: 280
-      width: 230
-      height: 130
-    spriteID: 308da97560c66c24aa4f65d3b6d996be
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 480, y: 280}
-  - name: Heaven 2_Frame_5
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 718
-      y: 280
-      width: 230
-      height: 130
-    spriteID: ee30661f943e0b14fa81890cfcf6d15c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 718, y: 280}
-  - name: Heaven 2_Frame_6
+  - name: Heaven 3_Frame_19
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -470,7 +290,7 @@ ScriptedImporter:
       y: 418
       width: 230
       height: 130
-    spriteID: 4cd4dd9519c3b234683e490b1c20524e
+    spriteID: 535af8170e9170c4cbbb015d6a3a029b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -479,67 +299,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 418}
-  - name: Heaven 2_Frame_7
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 242
-      y: 418
-      width: 230
-      height: 130
-    spriteID: 5456def7f952999488adf89702423813
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 242, y: 418}
-  - name: Heaven 2_Frame_8
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 480
-      y: 418
-      width: 230
-      height: 130
-    spriteID: 75ef1af121129f14ea400db75054951b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 480, y: 418}
-  - name: Heaven 2_Frame_9
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 718
-      y: 418
-      width: 230
-      height: 130
-    spriteID: 83e8cdf6ff3c4a74ebbf9a4ea5829ee1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 718, y: 418}
-  - name: Heaven 2_Frame_10
+  - name: Heaven 3_Frame_20
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -550,7 +310,7 @@ ScriptedImporter:
       y: 556
       width: 230
       height: 130
-    spriteID: 9442709681e323742a1fe503e0b6955f
+    spriteID: 0edd261e8dbe93b44abd14103b8e64dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -559,18 +319,458 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 556}
-  - name: Heaven 2_Frame_10
+  - name: Heaven 3_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 694
+      width: 230
+      height: 130
+    spriteID: 4fa9d75ea58adc44ca2324ea356914b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 694}
+  - name: Heaven 3_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 832
+      width: 230
+      height: 130
+    spriteID: d2ec1a881e278d4469e1927d32014873
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 832}
+  - name: Heaven 3_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 970
+      width: 230
+      height: 130
+    spriteID: f0b03ea01ff2de44090991878530debb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 970}
+  - name: Heaven 3_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1108
+      width: 230
+      height: 130
+    spriteID: 1a8b9a67619aee14a8da0d76686ddc19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1108}
+  - name: Heaven 3_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1246
+      width: 230
+      height: 130
+    spriteID: 84bca1da36dc4834eb75ec4f39ddc022
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1246}
+  - name: Heaven 3_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1384
+      width: 230
+      height: 130
+    spriteID: b150469b157bf18498280e5995952fe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1384}
+  - name: Heaven 3_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1522
+      width: 230
+      height: 130
+    spriteID: 38aa1acc00e7f8641ae456284f90ae02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1522}
+  - name: Heaven 3_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1660
+      width: 230
+      height: 130
+    spriteID: 5fcd8c9992c56a544a491afcf246df24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1660}
+  - name: Heaven 3_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1798
+      width: 230
+      height: 130
+    spriteID: 74d35fd8e3837444683877be2228c3bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1798}
+  - name: Heaven 3_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 4
+      width: 230
+      height: 130
+    spriteID: 96a6486df996bfd47a1c88ad62554f89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 4}
+  - name: Heaven 3_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 142
+      width: 230
+      height: 130
+    spriteID: 93aeb3e6fd67d574bb807f1009b5ed57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 142}
+  - name: Heaven 3_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 280
+      width: 230
+      height: 130
+    spriteID: bbaad25ebca57b74c919efb65fa15246
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 280}
+  - name: Heaven 3_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 418
+      width: 230
+      height: 130
+    spriteID: 34e05d1f5d5f23845a5a10842789efd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 418}
+  - name: Heaven 3_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 556
+      width: 230
+      height: 130
+    spriteID: 3743e3de4e29b8e48bb8ece58b734cc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 556}
+  - name: Heaven 3_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 694
+      width: 230
+      height: 130
+    spriteID: 4d3bb42c14eec13478114064ed461f45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 694}
+  - name: Heaven 3_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 832
+      width: 230
+      height: 130
+    spriteID: 96e965e19a1275e4f9ac7d76472a8715
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 832}
+  - name: Heaven 3_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 970
+      width: 230
+      height: 130
+    spriteID: f7792ef83fcdf994bb9cf0e517613515
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 970}
+  - name: Heaven 3_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 1108
+      width: 230
+      height: 130
+    spriteID: aaf82ea624ed88445b0be47324c63216
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 1108}
+  - name: Heaven 3_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 1246
+      width: 230
+      height: 130
+    spriteID: ba63714d2b8ab2e449c7bcf605564b04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 1246}
+  - name: Heaven 3_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 1384
+      width: 230
+      height: 130
+    spriteID: bfd1eccdaa59cf040bb4654ebfd8a374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 1384}
+  - name: Heaven 3_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 1522
+      width: 230
+      height: 130
+    spriteID: ece62f6f599d8814bac9e4825ac59bcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 1522}
+  - name: Heaven 3_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 1660
+      width: 230
+      height: 130
+    spriteID: 97c6ee3cc4b4aa743b67ba4a5b59c0f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 1660}
+  - name: Heaven 3_Frame_0
     originalName: 
     pivot: {x: 2.1296296, y: -1.9545455}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 142
+      x: 400
+      y: 1853
       width: 54
       height: 44
-    spriteID: 95484e5e92261304c95ca31cea8cc215
+    spriteID: 0ad4689461437974b9912c637ac0d917
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -578,19 +778,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 142}
-  - name: Heaven 2_Frame_1
+    uvTransform: {x: 400, y: 1853}
+  - name: Heaven 3_Frame_1
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 194
+      x: 480
+      y: 131
       width: 52
       height: 43
-    spriteID: 6d11deff08ab4554b887c787b91bff10
+    spriteID: 86d578a50753e7743aecaa6da88e3281
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -598,19 +798,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 194}
-  - name: Heaven 2_Frame_2
+    uvTransform: {x: 480, y: 131}
+  - name: Heaven 3_Frame_2
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 280
+      x: 480
+      y: 182
       width: 52
       height: 43
-    spriteID: 25c2e9bd92b4320409c06fef33f430a3
+    spriteID: 300ce40a5b3bae849b42f35d9838d2c4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -618,19 +818,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 280}
-  - name: Heaven 2_Frame_3
+    uvTransform: {x: 480, y: 182}
+  - name: Heaven 3_Frame_3
+    originalName: 
+    pivot: {x: 0.7467533, y: -0.20370372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1936
+      width: 154
+      height: 108
+    spriteID: f8df7449a2fd1ee4bae90f957fd2aeb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1936}
+  - name: Heaven 3_Frame_4
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 331
+      x: 480
+      y: 233
       width: 52
       height: 43
-    spriteID: 5934f03ed4ddcd8458cb62cd3799eaa4
+    spriteID: 1179a9d58bd381f4aa7d14acfa5f7fb4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -638,19 +858,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 331}
-  - name: Heaven 2_Frame_4
+    uvTransform: {x: 480, y: 233}
+  - name: Heaven 3_Frame_5
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 418
+      x: 480
+      y: 284
       width: 52
       height: 43
-    spriteID: fd94bca2b98644541a30a62030ea4b22
+    spriteID: 1589e1847e00b8544a236349d40019f5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -658,19 +878,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 418}
-  - name: Heaven 2_Frame_5
+    uvTransform: {x: 480, y: 284}
+  - name: Heaven 3_Frame_6
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 469
+      x: 480
+      y: 335
       width: 52
       height: 43
-    spriteID: 483575b86b1a9e943ad725d790b5ff47
+    spriteID: 3f94ce646da5c3047b9bc9535283d91d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -678,19 +898,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 469}
-  - name: Heaven 2_Frame_6
+    uvTransform: {x: 480, y: 335}
+  - name: Heaven 3_Frame_7
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 755
-      y: 556
+      x: 480
+      y: 386
       width: 52
       height: 43
-    spriteID: e630c621b6412a040a06099b1da587dd
+    spriteID: 651900481bafd8244a8ae05cee39bb2b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -698,19 +918,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 755, y: 556}
-  - name: Heaven 2_Frame_7
+    uvTransform: {x: 480, y: 386}
+  - name: Heaven 3_Frame_8
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 815
-      y: 556
+      x: 480
+      y: 437
       width: 52
       height: 43
-    spriteID: fc2b0d8ace8b539448177c78f24ae609
+    spriteID: 07a892a70704e6a4c8a97ec169e104e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -718,19 +938,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 815, y: 556}
-  - name: Heaven 2_Frame_8
+    uvTransform: {x: 480, y: 437}
+  - name: Heaven 3_Frame_9
     originalName: 
     pivot: {x: 2.2115386, y: -2.0232558}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 875
-      y: 556
+      x: 480
+      y: 488
       width: 52
       height: 43
-    spriteID: 8a2d1416e6f260d4590e28ce6c82ea58
+    spriteID: 0644b22d623de8a4d9bf9e2d66aa5ede
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -738,39 +958,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 875, y: 556}
-  - name: Heaven 2_Frame_9
-    originalName: 
-    pivot: {x: 2.2115386, y: -2.0232558}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 935
-      y: 556
-      width: 52
-      height: 43
-    spriteID: 236bf76c94e316641960faedd71bd8c7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 935, y: 556}
-  - name: Heaven 2_Frame_10
+    uvTransform: {x: 480, y: 488}
+  - name: Heaven 3_Frame_10
     originalName: 
     pivot: {x: 2.1698112, y: -1.7659574}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 956
-      y: 80
+      x: 400
+      y: 1798
       width: 53
       height: 47
-    spriteID: b0bfcfd33a3565d4d9ac9d6cdf046fe8
+    spriteID: 8673e632568184b49a00f79db34bb272
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -778,331 +978,363 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 956, y: 80}
+    uvTransform: {x: 400, y: 1798}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -2116933793
-    name: Heaven 2
+    guid: 1143100160
+    name: Heaven 3
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Heaven 2_Frame_11
+    - name: Heaven 3_Frame_11
       frameIndex: 11
       cellRect:
         x: 0
         y: 62
         width: 64
         height: 68
-      spriteId: d2515a7b7f71f604a92ae76145fc3ca2
-    - name: Heaven 2_Frame_12
+      spriteId: 14f963ed4f064684090b0e71037b42d1
+    - name: Heaven 3_Frame_12
       frameIndex: 12
       cellRect:
         x: 0
         y: 34
         width: 94
         height: 96
-      spriteId: 7852994e35c791c4e94bf1b853ae9620
-    - name: Heaven 2_Frame_13
+      spriteId: 4c9e3d838d6c49d4c8e59e0a274c12bd
+    - name: Heaven 3_Frame_13
       frameIndex: 13
       cellRect:
         x: 0
         y: 32
         width: 103
         height: 98
-      spriteId: 584f2787ae5b48a49a2cff243b3303fd
-    - name: Heaven 2_Frame_14
+      spriteId: 8367ca02378a5f440949512082f7792b
+    - name: Heaven 3_Frame_14
       frameIndex: 14
       cellRect:
         x: 0
         y: 11
         width: 134
         height: 119
-      spriteId: 7fe9e4db7387cb84fb362588572a3a9d
-    - name: Heaven 2_Frame_15
+      spriteId: 5433018f8a2f2a84f96e5d3a95f5407d
+    - name: Heaven 3_Frame_15
       frameIndex: 15
       cellRect:
         x: 0
         y: 0
         width: 150
         height: 130
-      spriteId: c6f7c35bde5a5644b8a0874f7a867748
-    - name: Heaven 2_Frame_16
+      spriteId: 1c7414f9c2cfa5249940af91270a910e
+    - name: Heaven 3_Frame_16
       frameIndex: 16
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 6ab6cc51fb13ffb48be36de047b3b9a5
-    - name: Heaven 2_Frame_17
+      spriteId: 7aec5eab664efb343adab35dd9fe9ce5
+    - name: Heaven 3_Frame_17
       frameIndex: 17
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 037c0e9e01f4d5444925c8fc6e4bb216
-    - name: Heaven 2_Frame_18
+      spriteId: 5282dca1dbeac16459f56cb4eeee554c
+    - name: Heaven 3_Frame_18
       frameIndex: 18
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 2c1da3e246160844faf857c730bfcc39
-    - name: Heaven 2_Frame_19
+      spriteId: eded9a8175076c249a60dc723c4bf7c1
+    - name: Heaven 3_Frame_19
       frameIndex: 19
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 96ddb01d0db6ccf42ba4e6fe14e04c62
-    - name: Heaven 2_Frame_20
+      spriteId: 535af8170e9170c4cbbb015d6a3a029b
+    - name: Heaven 3_Frame_20
       frameIndex: 20
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 2bdc607e790ecfe4aa45b791ea935250
-    - name: Heaven 2_Frame_21
+      spriteId: 0edd261e8dbe93b44abd14103b8e64dd
+    - name: Heaven 3_Frame_21
       frameIndex: 21
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 2711145fb801e8845af3f01e70a768ec
-    - name: Heaven 2_Frame_22
+      spriteId: 4fa9d75ea58adc44ca2324ea356914b4
+    - name: Heaven 3_Frame_22
       frameIndex: 22
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 12a1841d4cef6ac439367e3555c35c71
-    - name: Heaven 2_Frame_23
+      spriteId: d2ec1a881e278d4469e1927d32014873
+    - name: Heaven 3_Frame_23
       frameIndex: 23
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 0970c32333262a14f89e225a63e7dfe4
-    - name: Heaven 2_Frame_24
+      spriteId: f0b03ea01ff2de44090991878530debb
+    - name: Heaven 3_Frame_24
       frameIndex: 24
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 6c9710dd45f82c647ac1db69a7487a25
-    - name: Heaven 2_Frame_25
+      spriteId: 1a8b9a67619aee14a8da0d76686ddc19
+    - name: Heaven 3_Frame_25
       frameIndex: 25
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 375b4db0ebcf3ed4e817cde664602135
-    - name: Heaven 2_Frame_26
+      spriteId: 84bca1da36dc4834eb75ec4f39ddc022
+    - name: Heaven 3_Frame_26
       frameIndex: 26
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 308da97560c66c24aa4f65d3b6d996be
-    - name: Heaven 2_Frame_27
+      spriteId: b150469b157bf18498280e5995952fe4
+    - name: Heaven 3_Frame_27
       frameIndex: 27
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: ee30661f943e0b14fa81890cfcf6d15c
-    - name: Heaven 2_Frame_28
+      spriteId: 38aa1acc00e7f8641ae456284f90ae02
+    - name: Heaven 3_Frame_28
       frameIndex: 28
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 4cd4dd9519c3b234683e490b1c20524e
-    - name: Heaven 2_Frame_29
+      spriteId: 5fcd8c9992c56a544a491afcf246df24
+    - name: Heaven 3_Frame_29
       frameIndex: 29
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 5456def7f952999488adf89702423813
-    - name: Heaven 2_Frame_30
+      spriteId: 74d35fd8e3837444683877be2228c3bf
+    - name: Heaven 3_Frame_30
       frameIndex: 30
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 75ef1af121129f14ea400db75054951b
-    - name: Heaven 2_Frame_31
+      spriteId: 96a6486df996bfd47a1c88ad62554f89
+    - name: Heaven 3_Frame_31
       frameIndex: 31
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 83e8cdf6ff3c4a74ebbf9a4ea5829ee1
-    - name: Heaven 2_Frame_32
+      spriteId: 93aeb3e6fd67d574bb807f1009b5ed57
+    - name: Heaven 3_Frame_32
       frameIndex: 32
       cellRect:
         x: 0
         y: 0
         width: 230
         height: 130
-      spriteId: 9442709681e323742a1fe503e0b6955f
-    - name: Heaven 2_Frame_0
+      spriteId: bbaad25ebca57b74c919efb65fa15246
+    - name: Heaven 3_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: 34e05d1f5d5f23845a5a10842789efd5
+    - name: Heaven 3_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: 3743e3de4e29b8e48bb8ece58b734cc9
+    - name: Heaven 3_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: 4d3bb42c14eec13478114064ed461f45
+    - name: Heaven 3_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: 96e965e19a1275e4f9ac7d76472a8715
+    - name: Heaven 3_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: f7792ef83fcdf994bb9cf0e517613515
+    - name: Heaven 3_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: aaf82ea624ed88445b0be47324c63216
+    - name: Heaven 3_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: ba63714d2b8ab2e449c7bcf605564b04
+    - name: Heaven 3_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: bfd1eccdaa59cf040bb4654ebfd8a374
+    - name: Heaven 3_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: ece62f6f599d8814bac9e4825ac59bcc
+    - name: Heaven 3_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 230
+        height: 130
+      spriteId: 97c6ee3cc4b4aa743b67ba4a5b59c0f2
+    - name: Heaven 3_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 86
         width: 54
         height: 44
-      spriteId: 95484e5e92261304c95ca31cea8cc215
-    - name: Heaven 2_Frame_1
+      spriteId: 0ad4689461437974b9912c637ac0d917
+    - name: Heaven 3_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: 6d11deff08ab4554b887c787b91bff10
-    - name: Heaven 2_Frame_2
+      spriteId: 86d578a50753e7743aecaa6da88e3281
+    - name: Heaven 3_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: 25c2e9bd92b4320409c06fef33f430a3
-    - name: Heaven 2_Frame_3
+      spriteId: 300ce40a5b3bae849b42f35d9838d2c4
+    - name: Heaven 3_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
-        y: 87
-        width: 52
-        height: 43
-      spriteId: 5934f03ed4ddcd8458cb62cd3799eaa4
-    - name: Heaven 2_Frame_4
+        y: 22
+        width: 154
+        height: 108
+      spriteId: f8df7449a2fd1ee4bae90f957fd2aeb1
+    - name: Heaven 3_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: fd94bca2b98644541a30a62030ea4b22
-    - name: Heaven 2_Frame_5
+      spriteId: 1179a9d58bd381f4aa7d14acfa5f7fb4
+    - name: Heaven 3_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: 483575b86b1a9e943ad725d790b5ff47
-    - name: Heaven 2_Frame_6
+      spriteId: 1589e1847e00b8544a236349d40019f5
+    - name: Heaven 3_Frame_6
       frameIndex: 6
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: e630c621b6412a040a06099b1da587dd
-    - name: Heaven 2_Frame_7
+      spriteId: 3f94ce646da5c3047b9bc9535283d91d
+    - name: Heaven 3_Frame_7
       frameIndex: 7
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: fc2b0d8ace8b539448177c78f24ae609
-    - name: Heaven 2_Frame_8
+      spriteId: 651900481bafd8244a8ae05cee39bb2b
+    - name: Heaven 3_Frame_8
       frameIndex: 8
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: 8a2d1416e6f260d4590e28ce6c82ea58
-    - name: Heaven 2_Frame_9
+      spriteId: 07a892a70704e6a4c8a97ec169e104e6
+    - name: Heaven 3_Frame_9
       frameIndex: 9
       cellRect:
         x: 0
         y: 87
         width: 52
         height: 43
-      spriteId: 236bf76c94e316641960faedd71bd8c7
-    - name: Heaven 2_Frame_10
+      spriteId: 0644b22d623de8a4d9bf9e2d66aa5ede
+    - name: Heaven 3_Frame_10
       frameIndex: 10
       cellRect:
         x: 0
         y: 83
         width: 53
         height: 47
-      spriteId: b0bfcfd33a3565d4d9ac9d6cdf046fe8
+      spriteId: 8673e632568184b49a00f79db34bb272
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 230, y: 130}
