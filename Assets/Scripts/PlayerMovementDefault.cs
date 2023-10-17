@@ -311,4 +311,18 @@ public class PlayerMovementTest : MonoBehaviour
     {
         velocityTemp = Mathf.Abs(player.velocity.x);
     }
+    //sets a new spawn point if the player triggers a checkpoint
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Checkpoint")
+        {
+            SetNewCheckpoint();
+            Debug.Log("checkpoint");
+        }
+    }
+    public void SetNewCheckpoint()
+    {
+        spawnPos = player.transform.position;
+        
+    }
 }

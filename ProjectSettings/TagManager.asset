@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Blue
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
