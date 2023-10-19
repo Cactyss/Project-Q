@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class PlayerSettings : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class PlayerSettings : MonoBehaviour
      
     void Start()
     {
-        
+        Debug.Log(SceneManager.GetActiveScene().buildIndex);
         GoodJobText.SetActive(false);
         SettingsPanel.SetActive(false);
         Time.timeScale = 1;

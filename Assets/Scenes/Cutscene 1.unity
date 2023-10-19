@@ -395,6 +395,81 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 53256806}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 5d40215047347604a87366d30f713d8c, type: 3}
+--- !u!1 &307900766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 307900769}
+  - component: {fileID: 307900768}
+  - component: {fileID: 307900767}
+  m_Layer: 0
+  m_Name: NextScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &307900767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307900766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: a6952fc09a79ea243a949c728c5fb885, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 307900768}
+          m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
+          m_MethodName: GoNextScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &307900768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307900766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12f67c8c69ca54c8e7b5ecbacf0d1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &307900769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307900766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.57655, y: 83.12188, z: 0.006826462}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482815138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,11 +1075,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5954138256528405956, guid: 7632f51904352dd44a180ef7e1cc700a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.45
+      value: -0.02999878
       objectReference: {fileID: 0}
     - target: {fileID: 5954138256528405956, guid: 7632f51904352dd44a180ef7e1cc700a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 93.71
+      value: -0.22999573
       objectReference: {fileID: 0}
     - target: {fileID: 5954138256528405956, guid: 7632f51904352dd44a180ef7e1cc700a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1454,8 +1529,10 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 6006629492861187442, guid: bd3a6269dd5280a41b4c06b850f238d0, type: 2}
+  - key: {fileID: 2907692813171382880, guid: bd3a6269dd5280a41b4c06b850f238d0, type: 2}
     value: {fileID: 1573434156}
+  - key: {fileID: 9125600153213183785, guid: bd3a6269dd5280a41b4c06b850f238d0, type: 2}
+    value: {fileID: 307900767}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1827750414

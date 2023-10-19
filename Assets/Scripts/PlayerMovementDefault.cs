@@ -263,10 +263,10 @@ public class PlayerMovementTest : MonoBehaviour
 
     public void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log("step 1");
+        
         if (collision.gameObject.tag == "Blue" && Input.GetKey(KeyCode.K) && satiated < 50)
         {
-            Debug.Log("step 2");
+           
             satiated = satiated + 25;
             Debug.Log(satiated);
             //Destroy(collision.gameObject); Disable or destroy?
