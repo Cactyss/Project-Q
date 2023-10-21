@@ -319,6 +319,14 @@ public class PlayerMovementTest : MonoBehaviour
             SetNewCheckpoint();
             Debug.Log("checkpoint");
         }
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "death")
+        {
+            ResetPlayer();
+        }
     }
     public void SetNewCheckpoint()
     {
