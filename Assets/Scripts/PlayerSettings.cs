@@ -7,19 +7,19 @@ using UnityEngine.SceneManagement;
 
 public class PlayerSettings : MonoBehaviour
 {
-    public GameObject GoodJobText;
+    public GameObject FirstPanel;
+    public GameObject SecondPanel;
+    public GameObject ThirdPanel;
     public GameObject SettingsPanel;
-    public TextMeshProUGUI GroundSpeed;
-    public TMP_Text AirSpeed;
+    public GameObject GoodJobText;
     public GameObject player;
 
      
     void Start()
     {
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
-        GoodJobText.SetActive(false);
-        SettingsPanel.SetActive(false);
-        Time.timeScale = 1;
+        
+       
     }
 
     // Update is called once per frame
@@ -38,16 +38,42 @@ public class PlayerSettings : MonoBehaviour
                 Time.timeScale = 1;
             }
         }
+        if (Input.GetKey("1"))
+        {
+            SetFirstPanel();
+        }
+        if (Input.GetKey("2"))
+        {
+            SetSecondPanel();
+        }
+        if (Input.GetKey("3"))
+        {
+            SetThirdPanel();
+        }
     }
     //sets ground and airspeed to what is in the input fields after they are changed
-    public void UpdateGroundSpeed()
+    public void SetFirstPanel()
     {
-        player.GetComponent<PlayerMovementTest>().groundSpeed = int.Parse(GroundSpeed.text.Substring(0, GroundSpeed.text.Length - 1));
+        SecondPanel.SetActive(false);
+        ThirdPanel.SetActive(false);
+        Debug.Log("1");
+        FirstPanel.SetActive(true);
     }
-    public void UpdateAirSpeed()
+    public void SetSecondPanel()
     {
-          player.GetComponent<PlayerMovementTest>().AirSpeed = int.Parse(AirSpeed.text.Substring(0, AirSpeed.text.Length - 1));
+        Debug.Log("2");
+        SecondPanel.SetActive(true);
+        ThirdPanel.SetActive(false);
+        FirstPanel.SetActive(false);
     }
+    public void SetThirdPanel()
+    {
+        SecondPanel.SetActive(false);
+        ThirdPanel.SetActive(true);
+        FirstPanel.SetActive(false);
+        Debug.Log("3");
+    }
+    
     public void callGoodJob()
     {//called by changing the input field ground/air speeds
         GoodJobText.SetActive(true);

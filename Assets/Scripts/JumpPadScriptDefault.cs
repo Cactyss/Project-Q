@@ -23,8 +23,7 @@ public class JumpPadScriptDefault : MonoBehaviour
     private void LateUpdate()
     {//does JumpPad after all other movement scripts
         if (Collided)
-        {
-            Debug.Log("collision");
+        { 
             playerBody.AddForce(jumpVector, ForceMode2D.Force);
             playerBody.velocity = jumpVector;
         }
