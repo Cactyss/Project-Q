@@ -4,16 +4,18 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class JumpScript : MonoBehaviour
 {//so this little script makes it so when the player tries to jump a text popup randomizes and says "jump", or something similar,
  //instead of the character jumping. Maybe the player will have a slight chance to actually jump.
-    private int rotate;
-    private int size;
-    private int duration;
+    private float rotate;
+    private float size;
+    private float duration;
     private int version;
 
-    public TextMeshPro text;
+    public GameObject text;
+   
     
     void Start()
     {
@@ -37,22 +39,28 @@ public class JumpScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            rotate = Random.Range();
-            size = Random.Range();
-            duration = Random.Range();
-            version = Random.Range();
+            rotate = UnityEngine.Random.Range(-40, 40);
+            size = UnityEngine.Random.Range(0.2f, 1f);
+            duration = UnityEngine.Random.Range(1f, 4f);
+            version = UnityEngine.Random.Range(1, 32);
 
             StartCoroutine(jump(rotate, size, duration, version));
         }
     }
-    private IEnumerator jump(int r, int s, int d, int v)
+    private IEnumerator jump(float r, float s, float d, int v)
     {
-        text.fontSize = s;
-        text.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
-       
+        text.transform.rotation = new Quaternion(0, 0, r, 0);
+        //text.GetComponent<TextMeshPro>().fontSize = s;
+        //text.GetComponent<TextMeshPro>().font = Resources.GetBuiltinResource(typeof(TMP_FontAsset), "AttackGraffiti-3zRBM.ttf") as TMP_FontAsset;
+      
+
         //stay on screen for d seconds
-        text.gameObject.SetActive(true);
+        text.SetActive(true);
         yield return new WaitForSeconds(d);
-        text.gameObject.SetActive(false);
+        text.SetActive(false);
+        Debug.Log(r);
+        Debug.Log(d);
+        Debug.Log(s);
+        Debug.Log(v);
     }
 }
