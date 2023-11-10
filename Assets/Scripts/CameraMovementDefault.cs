@@ -7,9 +7,14 @@ public class CameraMovementTest : MonoBehaviour
     public Transform MyCamera;
     public Transform target;
     public Rigidbody2D player;
-    public float smoothSpeed = 0.125f;
-    public Vector3 velocity = Vector3.zero;
+    private float smoothSpeed;
+    private Vector3 velocity;
 
+    private void Start()
+    {
+        velocity = Vector3.zero;
+        smoothSpeed = 0.125f;
+    }
     // sets camera position to player position with a SmoothDamp
     void FixedUpdate()
     {

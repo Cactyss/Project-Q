@@ -14,14 +14,6 @@ public class PlayerSettings : MonoBehaviour
     public GameObject GoodJobText;
     public GameObject player;
 
-     
-    void Start()
-    {
-        Debug.Log(SceneManager.GetActiveScene().buildIndex);
-        
-       
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -56,12 +48,10 @@ public class PlayerSettings : MonoBehaviour
     {
         SecondPanel.SetActive(false);
         ThirdPanel.SetActive(false);
-        Debug.Log("1");
         FirstPanel.SetActive(true);
     }
     public void SetSecondPanel()
     {
-        Debug.Log("2");
         SecondPanel.SetActive(true);
         ThirdPanel.SetActive(false);
         FirstPanel.SetActive(false);
@@ -71,7 +61,6 @@ public class PlayerSettings : MonoBehaviour
         SecondPanel.SetActive(false);
         ThirdPanel.SetActive(true);
         FirstPanel.SetActive(false);
-        Debug.Log("3");
     }
     
     public void callGoodJob()

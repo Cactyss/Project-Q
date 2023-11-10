@@ -46,7 +46,6 @@ public class PlayerMovementTest : MonoBehaviour
         boxSize = new Vector2(1, 1);
         castDistance = 1;
         spawnPos = player.position;
-        Debug.Log("scene started! Yay!");
         bouncy = false;
         //groundSpeed = 8.5;
         //AirSpeed = 8.5;

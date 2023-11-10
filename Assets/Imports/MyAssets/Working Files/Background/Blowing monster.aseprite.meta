@@ -126,10 +126,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 204
       y: 4
       width: 192
-      height: 158
+      height: 132
     spriteID: 1ecd3b0f9555ab9458f1db2548d6f43e
     spriteBone: []
     spriteOutline: []
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 204, y: 4}
   - name: Blowing monster_Frame_1
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -146,7 +146,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 204
+      x: 4
       y: 4
       width: 192
       height: 135
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 204, y: 4}
+    uvTransform: {x: 4, y: 4}
   - name: Blowing monster_Frame_2
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -186,8 +186,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 204
-      y: 308
+      x: 4
+      y: 284
       width: 192
       height: 126
     spriteID: 42382ba0c4d612f4b8aa48b5e9d7fdf1
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 204, y: 308}
+    uvTransform: {x: 4, y: 284}
   - name: Blowing monster_Frame_4
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -206,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 404
-      y: 308
+      x: 204
+      y: 284
       width: 192
       height: 126
     spriteID: dad07a0b52cdf26449b1a7136dce8a19
@@ -218,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 404, y: 308}
+    uvTransform: {x: 204, y: 284}
   - name: Blowing monster_Frame_5
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -226,8 +226,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 308
+      x: 804
+      y: 147
       width: 192
       height: 127
     spriteID: 3dd04eb0f9b69994d83c0db386c9cc9a
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 308}
+    uvTransform: {x: 804, y: 147}
   - name: Blowing monster_Frame_6
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -246,8 +246,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 204
-      y: 170
+      x: 4
+      y: 147
       width: 192
       height: 129
     spriteID: 947c87831b1d13a4f921b7904535320a
@@ -258,7 +258,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 204, y: 170}
+    uvTransform: {x: 4, y: 147}
   - name: Blowing monster_Frame_7
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -306,8 +306,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 404
-      y: 170
+      x: 204
+      y: 147
       width: 192
       height: 129
     spriteID: 26209e934bed53b46b8f5351ada9bbe7
@@ -318,7 +318,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 404, y: 170}
+    uvTransform: {x: 204, y: 147}
   - name: Blowing monster_Frame_10
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -326,8 +326,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 604
-      y: 170
+      x: 404
+      y: 147
       width: 192
       height: 128
     spriteID: c485dcc7c7e9bc740929ae5f8e4af83d
@@ -338,7 +338,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 604, y: 170}
+    uvTransform: {x: 404, y: 147}
   - name: Blowing monster_Frame_11
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -346,8 +346,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 604
-      y: 308
+      x: 404
+      y: 284
       width: 192
       height: 123
     spriteID: 78d068ee1a135274e993142147e7c64d
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 604, y: 308}
+    uvTransform: {x: 404, y: 284}
   - name: Blowing monster_Frame_12
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -366,8 +366,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 443
+      x: 804
+      y: 284
       width: 192
       height: 118
     spriteID: dac16049d470cd5439343e3aae100241
@@ -378,7 +378,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 443}
+    uvTransform: {x: 804, y: 284}
   - name: Blowing monster_Frame_13
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -386,8 +386,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 804
-      y: 308
+      x: 604
+      y: 284
       width: 192
       height: 122
     spriteID: 934a7f32f45ac57448e3ba783cc68c66
@@ -398,7 +398,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 804, y: 308}
+    uvTransform: {x: 604, y: 284}
   - name: Blowing monster_Frame_14
     originalName: 
     pivot: {x: 0.4322917, y: 0}
@@ -406,8 +406,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 804
-      y: 170
+      x: 604
+      y: 147
       width: 192
       height: 128
     spriteID: 0d981431671ea29408b9b24cda2ed8ad
@@ -418,27 +418,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 804, y: 170}
-  - name: Blowing monster_Frame_15
-    originalName: 
-    pivot: {x: 0.4322917, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 170
-      width: 192
-      height: 130
-    spriteID: d24bea8bb0f6e0e46a80f7412f45a850
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 170}
+    uvTransform: {x: 604, y: 147}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -454,7 +434,7 @@ ScriptedImporter:
         x: 45
         y: 0
         width: 192
-        height: 158
+        height: 132
       spriteId: 1ecd3b0f9555ab9458f1db2548d6f43e
     - name: Blowing monster_Frame_1
       frameIndex: 1
@@ -568,14 +548,6 @@ ScriptedImporter:
         width: 192
         height: 128
       spriteId: 0d981431671ea29408b9b24cda2ed8ad
-    - name: Blowing monster_Frame_15
-      frameIndex: 15
-      cellRect:
-        x: 45
-        y: 0
-        width: 192
-        height: 130
-      spriteId: d24bea8bb0f6e0e46a80f7412f45a850
     linkedCells: []
     parentIndex: -1
   platformSettings: []
