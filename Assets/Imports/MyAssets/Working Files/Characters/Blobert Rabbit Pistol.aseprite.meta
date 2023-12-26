@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 838a92657d4c94348bc91c00d765c2f9
+guid: a2c3ac4b9a0243946886bd3d3a33b36c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Blobert Rabbit Suit R_Frame_0
+  - name: Blobert Rabbit Pistol_Frame_0
     originalName: 
-    pivot: {x: 0.4666667, y: 0}
+    pivot: {x: 0.4324324, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 15
+      width: 74
       height: 32
-    spriteID: 41c0ca21241f8ab4881141620a4771d6
+    spriteID: cb0521b86c9922b4ea08fef598b43749
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +139,110 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Blobert Rabbit Pistol_Frame_1
+    originalName: 
+    pivot: {x: 0.4324324, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 74
+      height: 32
+    spriteID: 9416694e79164534bb3f9aa4aedf5a4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Blobert Rabbit Pistol_Frame_2
+    originalName: 
+    pivot: {x: 0.4324324, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 74
+      height: 32
+    spriteID: c015d73229e8b594ab50f1f7c5865d35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Blobert Rabbit Pistol_Frame_3
+    originalName: 
+    pivot: {x: 0.4324324, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 74
+      height: 32
+    spriteID: 0d5bff7e6a8182f408e5ee2eef4a9de7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1199692459
-    name: Blobert Rabbit Suit R
+    guid: 2024969375
+    name: Blobert Rabbit Pistol
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Blobert Rabbit Suit R
+    - name: Blobert Rabbit Pistol_Frame_0
       frameIndex: 0
       cellRect:
-        x: 1
-        y: 0
-        width: 15
+        x: 40
+        y: 16
+        width: 74
         height: 32
-      spriteId: 41c0ca21241f8ab4881141620a4771d6
+      spriteId: cb0521b86c9922b4ea08fef598b43749
+    - name: Blobert Rabbit Pistol_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 40
+        y: 16
+        width: 74
+        height: 32
+      spriteId: 9416694e79164534bb3f9aa4aedf5a4d
+    - name: Blobert Rabbit Pistol_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 40
+        y: 16
+        width: 74
+        height: 32
+      spriteId: c015d73229e8b594ab50f1f7c5865d35
+    - name: Blobert Rabbit Pistol_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 40
+        y: 16
+        width: 74
+        height: 32
+      spriteId: 0d5bff7e6a8182f408e5ee2eef4a9de7
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 32}
+  canvasSize: {x: 144, y: 64}
