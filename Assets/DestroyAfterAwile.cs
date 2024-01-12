@@ -13,8 +13,9 @@ public class DestroyAfterAwile : MonoBehaviour
     }
     private IEnumerator Destroy()
     {
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSecondsRealtime(waitTime);
+        Debug.Log("should be destroyed");
 
-        Destroy(gameObject);
+        Destroy(this);
     }
 }
