@@ -10,7 +10,7 @@ public class JumpPadScriptDefault : MonoBehaviour
     public Rigidbody2D playerBody;
     private void Start()
     {
-        Collided = true;
+        Collided = false;
         jumpVector = new Vector2(0, JumpPadForce);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +23,8 @@ public class JumpPadScriptDefault : MonoBehaviour
     private void LateUpdate()
     {//does JumpPad after all other movement scripts
         if (Collided)
-        { 
+        {
+            Debug.Log("jumpad");
             playerBody.AddForce(jumpVector, ForceMode2D.Force);
             playerBody.velocity = jumpVector;
         }

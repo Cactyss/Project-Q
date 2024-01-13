@@ -26,7 +26,7 @@ public class CloudBridgeGenerator : MonoBehaviour
         newPlatform.transform.parent = parent.transform;
         newPlatform.GetComponent<Rigidbody2D>().velocity = NewVelocity;
         yield return new WaitForSeconds(realWaitTime);
-        Debug.Log(realWaitTime + offset);
+        //Debug.Log(realWaitTime + offset);
         StartCoroutine(BridgeGen());
 
     }

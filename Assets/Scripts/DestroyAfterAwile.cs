@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class DestroyAfterAwile : MonoBehaviour
 {
-    float waitTime;
+    
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        waitTime = 10f;
+        StartCoroutine(Destroy()); 
+  
     }
     private IEnumerator Destroy()
     {
-        yield return new WaitForSecondsRealtime(waitTime);
-        Debug.Log("should be destroyed");
-
-        Destroy(this);
+        yield return new WaitForSeconds(41);
+      
+        Destroy(this.gameObject);
     }
 }

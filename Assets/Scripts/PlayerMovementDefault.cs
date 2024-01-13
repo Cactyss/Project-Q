@@ -7,6 +7,7 @@ using UnityEngine.Experimental.Rendering;
 public class PlayerMovementTest : MonoBehaviour
 {
     GameObject[] blue;
+    GameObject[] click;
     private bool shouldStop;
     public float maxspeed;
     public bool gravityYes;
@@ -304,6 +305,12 @@ public class PlayerMovementTest : MonoBehaviour
         {
             b.SetActive(true);
         }
+        click = GameObject.FindGameObjectsWithTag("click mechanic");
+        foreach (GameObject c in click)
+        {
+            Destroy(c.gameObject);
+        }
+
 
     }
     public void SeteVelocityTemp()

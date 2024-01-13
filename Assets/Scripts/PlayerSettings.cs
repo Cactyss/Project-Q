@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerSettings : MonoBehaviour
 {
+    public GameObject otherCanvasOne;
+    public GameObject otherCanvasTwo;
     public GameObject FirstPanel;
     public GameObject SecondPanel;
     public GameObject ThirdPanel;
@@ -21,6 +23,9 @@ public class PlayerSettings : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+            otherCanvasOne.SetActive(!SettingsPanel.activeSelf);
+            otherCanvasTwo.SetActive(!SettingsPanel.activeSelf);
+
             if (SettingsPanel.activeSelf)
             {
                 Time.timeScale = 0;

@@ -455,6 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b12f67c8c69ca54c8e7b5ecbacf0d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 10
 --- !u!4 &307900769
 Transform:
   m_ObjectHideFlags: 0
@@ -696,7 +697,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &640988088
 MonoBehaviour:
@@ -929,21 +930,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6783335127643883641, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6915475137442547280, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2005946190}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
---- !u!1 &1364890989 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4968490968768663732, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
-  m_PrefabInstance: {fileID: 1364890985}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &1438934169 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6783335127643883641, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
-  m_PrefabInstance: {fileID: 1364890985}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1489831359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 554c9e90ef1d6a14298cf1c343549737, type: 3}
@@ -1026,6 +1017,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498339842}
   m_CullTransparentMesh: 1
+--- !u!224 &1535403165 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6915475137442547280, guid: e0e4f200bb03e76478a409bfbd1f19bb, type: 3}
+  m_PrefabInstance: {fileID: 1364890985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1573434152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5954138256528405956, guid: 7632f51904352dd44a180ef7e1cc700a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5954138256528405956, guid: 7632f51904352dd44a180ef7e1cc700a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1573,7 +1569,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1934899061
 MonoBehaviour:
@@ -1590,7 +1586,7 @@ MonoBehaviour:
   FirstPanel: {fileID: 0}
   SecondPanel: {fileID: 0}
   ThirdPanel: {fileID: 0}
-  SettingsPanel: {fileID: 1364890989}
+  SettingsPanel: {fileID: 0}
   GoodJobText: {fileID: 0}
   player: {fileID: 1573434153}
 --- !u!1 &2005946189
@@ -1623,7 +1619,7 @@ RectTransform:
   m_Children:
   - {fileID: 1651852352}
   - {fileID: 1498339843}
-  m_Father: {fileID: 1438934169}
+  m_Father: {fileID: 1535403165}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
