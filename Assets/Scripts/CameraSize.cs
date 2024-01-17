@@ -6,12 +6,12 @@ using UnityEngine;
 public class CameraSize : MonoBehaviour
 {
     GameObject cam;
-    Camera camera;
+    Camera Mycamera;
     // Use this for initialization
 	void Start()
     {
-        camera = cam.GetComponent<Camera>();
-        camera.orthographicSize = 8.534866f; // Size u want to start with
+        Mycamera = cam.GetComponent<Camera>();
+        Mycamera.orthographicSize = 8.534866f; // Size u want to start with
     }
 
     // Update is called once per frame
@@ -19,20 +19,20 @@ public class CameraSize : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Q)) // Change From Q to anyother key you want
         {
-            camera.orthographicSize = camera.orthographicSize + 1 * Time.deltaTime;
-            if (camera.orthographicSize > 8)
+            Mycamera.orthographicSize = Mycamera.orthographicSize + 1 * Time.deltaTime;
+            if (Mycamera.orthographicSize > 8)
             {
-                camera.orthographicSize = 8; // Max size
+                Mycamera.orthographicSize = 8; // Max size
             }
         }
 
 
         if (Input.GetKey(KeyCode.E)) // Also you can change E to anything
         {
-            camera.orthographicSize = camera.orthographicSize - 1 * Time.deltaTime;
-            if (camera.orthographicSize < 6)
+            Mycamera.orthographicSize = Mycamera.orthographicSize - 1 * Time.deltaTime;
+            if (Mycamera.orthographicSize < 6)
             {
-                camera.orthographicSize = 6; // Min size 
+                Mycamera.orthographicSize = 6; // Min size 
             }
         }
     } 
