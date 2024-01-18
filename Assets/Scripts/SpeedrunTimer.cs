@@ -8,7 +8,7 @@ using UnityEngine;
 public class SpeedrunTimer : MonoBehaviour
 {
     public String currentTime;
-    public String bestTime;
+    public String bestTime1;
     public GameObject text;
     DateTime startTime;
     public TimeSpan timeElapsed { get; private set; }
@@ -23,16 +23,12 @@ public class SpeedrunTimer : MonoBehaviour
         currentTime = timeElapsed.ToString();
         //output to text
         text.GetComponent<TextMeshProUGUI>().SetText(timeElapsed.ToString());
-
-
-        Debug.Log(System.DateTime.Parse(DateTime.Now.ToString()));
-        Debug.Log(DateTime.Now);
     }
     public void SetSpeedrunTime()
     {
         PlayerPrefs.SetString("StartTime", startTime.ToString());
-        bestTime = currentTime;
-        PlayerPrefs.SetString("bestTime1", bestTime);
+        bestTime1 = currentTime;
+        PlayerPrefs.SetString("bestTime1", bestTime1);
         
     }
 }

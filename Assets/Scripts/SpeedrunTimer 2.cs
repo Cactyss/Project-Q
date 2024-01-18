@@ -8,7 +8,7 @@ public class SpeedrunTimer2 : MonoBehaviour
 {
 
     public String currentTime;
-    public String bestTime;
+    public String bestTime2;
     public GameObject text;
     DateTime startTime;
     public TimeSpan timeElapsed { get; private set; }
@@ -27,9 +27,8 @@ public class SpeedrunTimer2 : MonoBehaviour
     }
     public void SetSpeedrunTime()
     {
-     
-        bestTime = currentTime;
-        PlayerPrefs.SetString("bestTime2", bestTime);
+        bestTime2 = currentTime;
+        PlayerPrefs.SetString("bestTime2", bestTime2);
         
     }
 }
