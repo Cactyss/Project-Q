@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class NextScene : MonoBehaviour
 {
+    public GameObject timerObject;
     public int delay;
     private void Start()
     {
+        timerObject.GetComponent<SpeedrunTimer>().SetSpeedrunTime();
         StartCoroutine(GoNextScene());
     }
     private IEnumerator GoNextScene()
-    {
-        
+    {   
         yield return new WaitForSeconds(delay);
         Debug.Log("load next level");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
