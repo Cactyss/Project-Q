@@ -6421,7 +6421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 
-  bestTime: 
+  bestTime1: 
   text: {fileID: 2224849677914516430}
 --- !u!4 &918574630
 Transform:
@@ -27836,8 +27836,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00082397, y: -0.00013351}
-  m_SizeDelta: {x: 506.19, y: 104.24}
+  m_AnchoredPosition: {x: -2.0011597, y: 158.59053}
+  m_SizeDelta: {x: 180.87, y: 48.1201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2300796306481046874
 GameObject:
@@ -32718,8 +32718,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -52.4857, y: 0}
-  m_SizeDelta: {x: -220.5412, y: -68.7709}
+  m_AnchoredPosition: {x: -104.6028, y: 15.4657}
+  m_SizeDelta: {x: -266.1295, y: -70.1424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3815586871773435789
 MonoBehaviour:
@@ -32770,8 +32770,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -146.76572, y: -0.5281067}
-  m_SizeDelta: {x: -278.7264, y: 227.492}
+  m_AnchoredPosition: {x: -221.15, y: -0.5281067}
+  m_SizeDelta: {x: -427.49, y: 227.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4011748130809497008
 MonoBehaviour:
@@ -32866,8 +32866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0026398, y: 0.000078201}
-  m_SizeDelta: {x: 596.35, y: 104.24}
+  m_AnchoredPosition: {x: -1.9996796, y: 151.68002}
+  m_SizeDelta: {x: 194.11, y: 58.6884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &4383391808360444452
 PrefabInstance:
@@ -33044,8 +33044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024109, y: -0.000078201}
-  m_SizeDelta: {x: 579.37, y: 104.24}
+  m_AnchoredPosition: {x: -2.0001068, y: 157.77713}
+  m_SizeDelta: {x: 187.94, y: 46.4932}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!483693784 &4677171664046649763
 TilemapRenderer:
@@ -33848,7 +33848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000091552734, y: -2.6800156}
+  m_AnchoredPosition: {x: -2, y: 149}
   m_SizeDelta: {x: 99.434, y: 28.9384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6468776202764383367
@@ -33870,8 +33870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -33.662292, y: -0.5281067}
-  m_SizeDelta: {x: -281.9917, y: 227.492}
+  m_AnchoredPosition: {x: -30.123993, y: -0.5280609}
+  m_SizeDelta: {x: -421.32, y: 227.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6615092102614053752
 GameObject:
@@ -34809,7 +34809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000091552734, y: -2.6800156}
+  m_AnchoredPosition: {x: -2.0000305, y: 149}
   m_SizeDelta: {x: 99.434, y: 28.9384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!19719996 &8128121722084281936
@@ -34940,8 +34940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 72.39991, y: -0.5281067}
-  m_SizeDelta: {x: -264.6448, y: 227.49}
+  m_AnchoredPosition: {x: 157.362, y: -0.5280762}
+  m_SizeDelta: {x: -434.5639, y: 227.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8377000069755500531
 CanvasRenderer:
@@ -35170,7 +35170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000091552734, y: -2.6800156}
+  m_AnchoredPosition: {x: -2.0000305, y: 149}
   m_SizeDelta: {x: 99.434, y: 28.9384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9080255977657729856
