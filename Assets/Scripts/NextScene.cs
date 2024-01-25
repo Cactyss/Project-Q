@@ -9,8 +9,14 @@ public class NextScene : MonoBehaviour
     public int delay;
     private void Start()
     {
-        timerObject.GetComponent<SpeedrunTimer>().SetSpeedrunTime();
+        try
+        {
+            timerObject.GetComponent<SpeedrunTimer>().SetSpeedrunTime();
+        }
+        finally
+        { 
         StartCoroutine(GoNextScene());
+        }
     }
     private IEnumerator GoNextScene()
     {   
