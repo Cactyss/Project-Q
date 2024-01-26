@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class PlayerSettings : MonoBehaviour
+public class PlayerSettings1 : MonoBehaviour
 {
     public GameObject otherCanvasOne;
     public GameObject otherCanvasTwo;
@@ -13,7 +13,7 @@ public class PlayerSettings : MonoBehaviour
     public GameObject SecondPanel;
     public GameObject ThirdPanel;
     public GameObject SettingsPanel;
-    public GameObject GoodJobText;
+    //public GameObject GoodJobText;
     public GameObject player;
 
     // Update is called once per frame
@@ -70,13 +70,13 @@ public class PlayerSettings : MonoBehaviour
     
     public void callGoodJob()
     {//called by changing the input field ground/air speeds
-        GoodJobText.SetActive(true);
+     //   GoodJobText.SetActive(true);
         StartCoroutine(GoodJob()); 
     }
     private IEnumerator GoodJob()
     {
         //waits for a few seconds before turning off the good job text
         yield return new WaitForSecondsRealtime(3);
-        GoodJobText.SetActive(false);
+      //  GoodJobText.SetActive(false);
     }
 }
