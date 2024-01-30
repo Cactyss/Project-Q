@@ -73,6 +73,7 @@ public class JumpScript : MonoBehaviour
     }
     private IEnumerator jump(float r, float s, float d, int v, int t, int x, int y)
     {
+        FindObjectOfType<AudioManager>().Play("jump1");
         if (texty == 1) { text.GetComponent<TMP_Text>().SetText("i love you"); }
         if (texty > 1 && texty <= 20) { text.GetComponent<TMP_Text>().SetText("Skip!"); }
         if (texty > 20 && texty <= 50) { text.GetComponent<TMP_Text>().SetText("Hop!"); }

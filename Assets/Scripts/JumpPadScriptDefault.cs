@@ -24,6 +24,7 @@ public class JumpPadScriptDefault : MonoBehaviour
     {//does JumpPad after all other movement scripts
         if (Collided)
         {
+            FindObjectOfType<AudioManager>().Play("landing1");
             Debug.Log("jumpad");
             playerBody.AddForce(jumpVector, ForceMode2D.Force);
             playerBody.velocity = jumpVector;

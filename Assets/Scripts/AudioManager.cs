@@ -2,7 +2,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 using System;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : MonoBehaviour // this class was created by BRACKEYS, please check em out on ytube if you want to learn unity
 {
     public Sound[] sounds;
 

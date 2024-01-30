@@ -188,7 +188,7 @@ public class PlayerMovementTest : MonoBehaviour
             Debug.Log(satiated);
         }
     }
-    public void playerMoveJump()
+    public void playerMoveJump() //not used
     {
         //Jump Script (has a toggle for bouncy mode)
         if (bouncy)
@@ -331,6 +331,7 @@ public class PlayerMovementTest : MonoBehaviour
     {
         if (collision.gameObject.tag == "death")
         {
+            FindObjectOfType<AudioManager>().Play("death1");
             ResetPlayer();
         }
     }

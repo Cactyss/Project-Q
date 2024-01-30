@@ -17,6 +17,7 @@ public class MouseGenMechanic : MonoBehaviour
         // spawns the object
         if (Input.GetMouseButtonDown(0)) 
         {
+            FindObjectOfType<AudioManager>().Play("dot1");
             Vector3 point = new Vector3();
             // declare a new variable to be my spawn Point
 
