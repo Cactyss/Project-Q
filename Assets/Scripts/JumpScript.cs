@@ -65,8 +65,8 @@ public class JumpScript : MonoBehaviour
             version = UnityEngine.Random.Range(0, 17);
             colory = UnityEngine.Random.Range(1, 6);
             texty = UnityEngine.Random.Range(1, 100);
-            xlocal = UnityEngine.Random.Range(-100, 100);
-            ylocal = UnityEngine.Random.Range(-100, 100);
+            xlocal = UnityEngine.Random.Range(0, 700);
+            ylocal = UnityEngine.Random.Range(0, 300);
   
             StartCoroutine(jump(rotate, size, duration, version, texty, xlocal, ylocal));
         }

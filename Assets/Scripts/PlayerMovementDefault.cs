@@ -6,6 +6,8 @@ using UnityEngine.Experimental.Rendering;
 
 public class PlayerMovementTest : MonoBehaviour
 {
+    [HideInInspector]
+    public bool faceLeft;
     GameObject[] blue;
     GameObject[] click;
     private bool shouldStop;
@@ -17,7 +19,7 @@ public class PlayerMovementTest : MonoBehaviour
     public LayerMask ground;
     private float castDistance;
     public Rigidbody2D player;
-    private bool isGrounded;
+    public bool isGrounded;
     public float groundSpeed;
     public float AirSpeed;
     int satiated;
@@ -36,15 +38,24 @@ public class PlayerMovementTest : MonoBehaviour
     public Vector2 boxSize;
     float velocityTemp;
     public float boostValue;
+    private Vector2 faceLeftValue;
+    private Vector2 faceRightValue;
+    public Animator animator;
+   
     private void Start()
     {
+        animator.SetBool("isGrounded", true);
+        animator.SetBool("Running", false);
+        faceLeft = false;
+        faceLeftValue = new Vector2(-transform.localScale.x, transform.localScale.y);
+        faceRightValue = new Vector2(transform.localScale.x, transform.localScale.y);
         blue = GameObject.FindGameObjectsWithTag("Blue");
         boostValue = 15;
         speedVector2 = new Vector2(1, 1);
         stopVector = new Vector2(1, 1);
         downVector = new Vector2(1, 1); 
         jumpVector = new Vector2(1, 1);
-        boxSize = new Vector2(1, 1);
+        boxSize = new Vector2(1f, 0.5f);
         castDistance = 1;
         spawnPos = player.position;
         bouncy = false;
@@ -63,7 +74,7 @@ public class PlayerMovementTest : MonoBehaviour
         AirSpeed = 10;
         airDrag = 0.1f;
         airAngleDrag = 0;
-        groundDrag = 1.5f;
+        groundDrag = 0.1f;
         groundAngleDrag = 0;
         satiated = 0;
         shouldStop = false;
@@ -74,6 +85,7 @@ public class PlayerMovementTest : MonoBehaviour
     }
     void Update()
     {
+    
         /** Does Update() mean that movement is tied to fps? **/
 
         ChangeVariables();
@@ -86,15 +98,30 @@ public class PlayerMovementTest : MonoBehaviour
 
         playerMoveBoost();
 
+        SetDirection();
+
         checkReset();
     }
     /** MAIN METHODS **/
 
+    public void SetDirection()
+    {
+        if (faceLeft)
+        {
+            player.transform.localScale = faceLeftValue;
+        }
+        else
+        {
+            player.transform.localScale = faceRightValue;
+        }
+    }
     public void playerMoveLeftRight()
     {
         //movement (set velocity)
         if (Input.GetKey(KeyCode.D))
         {
+            faceLeft = false;
+            animator.SetBool("Running", true);
             if (player.velocity.x < maxspeed && player.velocity.x > -maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(1, player.velocity.y);
@@ -110,8 +137,10 @@ public class PlayerMovementTest : MonoBehaviour
               player.velocity = player.velocity + (new Vector2(((maxspeed - player.velocity.x)) * Time.deltaTime, 0));
             } */
         }
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
+            animator.SetBool("Running", true);
+            faceLeft = true;
             if (player.velocity.x < maxspeed && player.velocity.x > -maxspeed)
             {
                 player.velocity = speedVector2 * new Vector2(-1, player.velocity.y);
@@ -128,6 +157,10 @@ public class PlayerMovementTest : MonoBehaviour
               player.velocity = player.velocity + (new Vector2((-(player.velocity.x + maxspeed)) * Time.deltaTime, 0));
             }*/
 
+        }
+        else
+        {
+            animator.SetBool("Running", false);
         }
     }
     //Checks for stop input
@@ -241,6 +274,7 @@ public class PlayerMovementTest : MonoBehaviour
     {
         //Checks the IsGrouned() method once, and sets it as a boolean
         isGrounded = IsGrounded();
+        animator.SetBool("isGrounded", isGrounded);
         //Removes Air Friction, Keeps Ground Friction (changes values)
         if (isGrounded)
         {

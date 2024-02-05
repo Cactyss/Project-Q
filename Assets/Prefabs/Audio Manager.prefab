@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7721467710503752699
+--- !u!1 &4958566783643819578
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7497512176274239264}
-  - component: {fileID: 635457083330792276}
+  - component: {fileID: 55074782716814453}
+  - component: {fileID: 4906914474518007502}
   m_Layer: 0
   m_Name: Audio Manager
   m_TagString: Untagged
@@ -17,31 +17,85 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7497512176274239264
+--- !u!4 &55074782716814453
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7721467710503752699}
+  m_GameObject: {fileID: 4958566783643819578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 806.05316, y: 30.664457, z: -0.13255402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &635457083330792276
+--- !u!114 &4906914474518007502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7721467710503752699}
+  m_GameObject: {fileID: 4958566783643819578}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eeb5c8c1228a7984e82f286b36bc3e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: jump1
+    clip: {fileID: 8300000, guid: 0963b7847b380c74085fcf90f73a22ec, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: jump2
+    clip: {fileID: 8300000, guid: 78abad222e9fb5140b8b386dd9341171, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: jump3
+    clip: {fileID: 8300000, guid: bc5841e8a1be657479772d0fe1003688, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: landing1
+    clip: {fileID: 8300000, guid: a25c8df8bf72db1409c17fce055b4ba0, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: death1
+    clip: {fileID: 8300000, guid: 465c7772093ce9d45ad2ac49f94119de, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: woosh1
+    clip: {fileID: 8300000, guid: 8ab5df096afcdc34493076a2f7e55446, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: woosh2
+    clip: {fileID: 8300000, guid: f95aa25595a55ea448c2277a4f42f8a2, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: dot1
+    clip: {fileID: 8300000, guid: 11f2469a3a9e339468dfd78d2317b3e4, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: intro1
+    clip: {fileID: 8300000, guid: da2b38ff3daf7644c943494e8b8e93c6, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}

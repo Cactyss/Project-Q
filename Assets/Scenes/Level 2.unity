@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 79874952}
   - component: {fileID: 79874953}
   - component: {fileID: 79874954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cloud Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,6 +304,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -523,6 +527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -588,6 +596,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -655,6 +667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -721,6 +737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -781,6 +801,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -858,6 +882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -923,6 +951,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -1129,6 +1161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1189,6 +1225,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -1355,6 +1395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1421,6 +1465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1486,6 +1534,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -1637,6 +1689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1731,7 +1787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321867730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sky Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,6 +1888,10 @@ PrefabInstance:
     - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
       propertyPath: m_Name
       value: Cloud Spike (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1992,7 +2052,7 @@ GameObject:
   - component: {fileID: 376454910}
   - component: {fileID: 376454909}
   - component: {fileID: 376454908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2071,7 +2131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af7bb3856c6d1645a0967fe2c1e4932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheMessage: {fileID: 0}
+  TheMessage: {fileID: 1683080986}
 --- !u!212 &376454910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2180,6 +2240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2196,6 +2260,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -2346,6 +2414,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -2501,6 +2573,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -2696,6 +2772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud3 Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 711620302498413199, guid: 2cb94b38011791847ad36f2dc441928d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2717,6 +2797,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -2784,6 +2868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2844,6 +2932,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -2910,6 +3002,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -3107,6 +3203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3173,6 +3273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3238,6 +3342,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -3310,6 +3418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3375,7 +3487,8 @@ GameObject:
   - component: {fileID: 587490017}
   - component: {fileID: 587490020}
   - component: {fileID: 587490018}
-  m_Layer: 0
+  - component: {fileID: 587490021}
+  m_Layer: 6
   m_Name: Death (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,6 +3607,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &587490021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587490016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af7bb3856c6d1645a0967fe2c1e4932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheMessage: {fileID: 1683080986}
 --- !u!1001 &597667065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3505,6 +3631,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -3572,6 +3702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3637,6 +3771,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -3747,6 +3885,10 @@ PrefabInstance:
     - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
       propertyPath: m_Name
       value: Collumn Bad 16x16 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4013,6 +4155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4079,6 +4225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4139,6 +4289,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -4205,6 +4359,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -4361,6 +4519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4426,6 +4588,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -4493,6 +4659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4558,6 +4728,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -4662,6 +4836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4728,6 +4906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4793,6 +4975,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -4940,6 +5126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5010,6 +5200,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -5114,6 +5308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5180,6 +5378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5245,6 +5447,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -5316,6 +5522,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -5652,6 +5862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5723,6 +5937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5783,6 +6001,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -5854,6 +6076,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -6192,6 +6418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6362,6 +6592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6427,6 +6661,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -6494,6 +6732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6559,6 +6801,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -6670,6 +6916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collumn Bad 16x16
       objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6686,6 +6936,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -6915,6 +7169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6980,6 +7238,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -7091,6 +7353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud3 Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 711620302498413199, guid: 2cb94b38011791847ad36f2dc441928d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7112,7 +7378,8 @@ GameObject:
   - component: {fileID: 1043833881}
   - component: {fileID: 1043833884}
   - component: {fileID: 1043833882}
-  m_Layer: 0
+  - component: {fileID: 1043833885}
+  m_Layer: 6
   m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7231,6 +7498,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1043833885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043833880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af7bb3856c6d1645a0967fe2c1e4932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheMessage: {fileID: 1683080986}
 --- !u!1001 &1057092840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7242,6 +7522,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -7303,6 +7587,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -7370,6 +7658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7435,6 +7727,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -7666,6 +7962,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -7950,6 +8250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7966,6 +8270,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -8027,6 +8335,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -8093,6 +8405,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -8239,6 +8555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8304,6 +8624,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -8691,6 +9015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8756,6 +9084,10 @@ PrefabInstance:
     - target: {fileID: 3259116450150042412, guid: fe8da50438b50484caab497ce557325e, type: 3}
       propertyPath: m_Name
       value: cloud4 edit Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259116450150042412, guid: fe8da50438b50484caab497ce557325e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3569124223123336344, guid: fe8da50438b50484caab497ce557325e, type: 3}
       propertyPath: m_RootOrder
@@ -8826,6 +9158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8891,6 +9227,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -9042,6 +9382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9180,6 +9524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9246,6 +9594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9311,6 +9663,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -9422,6 +9778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9443,6 +9803,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -9504,6 +9868,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -9570,6 +9938,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -9918,6 +10290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collumn Bad 16x16 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9934,6 +10310,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -10001,6 +10381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10065,7 +10449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381938625}
   - component: {fileID: 1381938624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FLY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10196,6 +10580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10306,6 +10694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10372,6 +10764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10432,6 +10828,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -10551,6 +10951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud3 Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 711620302498413199, guid: 2cb94b38011791847ad36f2dc441928d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10565,7 +10969,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1470240946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Intro Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10606,6 +11010,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -10712,6 +11120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10769,6 +11181,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -10846,6 +11262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10907,6 +11327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10967,6 +11391,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -11111,6 +11539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11171,6 +11603,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -11237,7 +11673,7 @@ GameObject:
   - component: {fileID: 1577616147}
   - component: {fileID: 1577616146}
   - component: {fileID: 1577616148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cloud Ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11442,6 +11878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11558,6 +11998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11623,6 +12067,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -11774,6 +12222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11842,7 +12294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659421404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collum Cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11886,6 +12338,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
   m_PrefabInstance: {fileID: 1145403995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683080986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683080987}
+  - component: {fileID: 1683080989}
+  - component: {fileID: 1683080988}
+  m_Layer: 5
+  m_Name: death
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1683080987
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683080986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6271406862459071933}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 22, y: 11.119}
+  m_SizeDelta: {x: 683.6331, y: 295.264}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1683080988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683080986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: death!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2239f7c5265944248aa9a0b697e243b2, type: 2}
+  m_sharedMaterial: {fileID: -1219506036353271344, guid: 2239f7c5265944248aa9a0b697e243b2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 300
+  m_fontSizeBase: 300
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1683080989
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683080986}
+  m_CullTransparentMesh: 1
 --- !u!1 &1683741829
 GameObject:
   m_ObjectHideFlags: 0
@@ -11982,6 +12569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12053,6 +12644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12118,6 +12713,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -12229,6 +12828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12245,6 +12848,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -12317,6 +12924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12382,6 +12993,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -12730,6 +13345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12795,6 +13414,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -12906,6 +13529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Spike (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12922,6 +13549,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -12994,6 +13625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13060,6 +13695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud4 edit Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3259116450150042412, guid: fe8da50438b50484caab497ce557325e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3569124223123336344, guid: fe8da50438b50484caab497ce557325e, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13120,6 +13759,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -13186,7 +13829,8 @@ GameObject:
   - component: {fileID: 1862302279}
   - component: {fileID: 1862302282}
   - component: {fileID: 1862302280}
-  m_Layer: 0
+  - component: {fileID: 1862302283}
+  m_Layer: 6
   m_Name: Death (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13305,6 +13949,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1862302283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862302278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af7bb3856c6d1645a0967fe2c1e4932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheMessage: {fileID: 1683080986}
 --- !u!4 &1864472376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1256591555317684546, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
@@ -13483,6 +14140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13544,6 +14205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13604,6 +14269,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -13670,6 +14339,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -13836,6 +14509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13896,6 +14573,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -14006,6 +14687,10 @@ PrefabInstance:
     - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
       propertyPath: m_Name
       value: Cloud Spike (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14217,6 +14902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14282,6 +14971,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -14420,6 +15113,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -14576,6 +15273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14646,6 +15347,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -14718,6 +15423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14781,7 +15490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1995678999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dot Thing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14825,6 +15534,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -14892,6 +15605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14957,6 +15674,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -15115,7 +15836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023719864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dot Tunnel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15336,6 +16057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -15401,6 +16126,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -15659,6 +16388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collumn Bad 16x16 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6092453816767625597, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
       propertyPath: m_SortingOrder
       value: 0
@@ -15769,6 +16502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -15839,7 +16576,7 @@ GameObject:
   - component: {fileID: 2091941482}
   - component: {fileID: 2091941481}
   - component: {fileID: 2091941483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16042,6 +16779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -16157,6 +16898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collumn Bad 16x16 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16173,6 +16918,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -16240,6 +16989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -16305,6 +17058,10 @@ PrefabInstance:
     - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_Name
       value: Cloud Dot (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
@@ -17063,6 +17820,67 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &767706953088572951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 806.05316
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.664457
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13255402
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55074782716814453, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4958566783643819578, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
 --- !u!114 &831583273075721157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18847,6 +19665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69813563fcf3a943a1974f2efaf945a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faceLeft: 0
   maxspeed: 0
   gravityYes: 0
   gravity: 0
@@ -18855,6 +19674,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   player: {fileID: 6963991711154558042}
+  isGrounded: 0
   groundSpeed: 0
   AirSpeed: 0
   stopForce: 30
@@ -18870,6 +19690,7 @@ MonoBehaviour:
   jumpVector: {x: 1, y: 1}
   boxSize: {x: 0.4, y: 0.2}
   boostValue: 0
+  animator: {fileID: 2012464372775617574}
 --- !u!222 &1775390038729891590
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22456,6 +23277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud3
       objectReference: {fileID: 0}
+    - target: {fileID: 711620302498413199, guid: 2cb94b38011791847ad36f2dc441928d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23117,6 +23942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cloud Dot
       objectReference: {fileID: 0}
+    - target: {fileID: 119893500617312625, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6574396947277244114, guid: 140f0b9633a71f641ba8bf485af309a9, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -23211,6 +24040,10 @@ PrefabInstance:
     - target: {fileID: 3495108048585950596, guid: 291218df7334f9545997ef86758e914b, type: 3}
       propertyPath: m_Name
       value: Angel 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495108048585950596, guid: 291218df7334f9545997ef86758e914b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4396024211396038096, guid: 291218df7334f9545997ef86758e914b, type: 3}
       propertyPath: m_RootOrder
@@ -23958,6 +24791,7 @@ RectTransform:
   - {fileID: 8710147002111605201}
   - {fileID: 4717218069934579158}
   - {fileID: 521157928836187632}
+  - {fileID: 1683080987}
   m_Father: {fileID: 573335867502502598}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24608,7 +25442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3846889820070502126}
   m_LocalRotation: {x: -0, y: -0.008727774, z: 0, w: 0.9999619}
-  m_LocalPosition: {x: -54.31, y: 72.2, z: -0.02}
+  m_LocalPosition: {x: -54.01, y: 73.88, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24774,6 +25608,10 @@ PrefabInstance:
     - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
       propertyPath: m_Name
       value: Cloud Spike
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114509693612093301, guid: f63053274d5076c46af01c472182aec5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25070,218 +25908,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: -92.665}
+  m_AnchoredPosition: {x: 71, y: 91.086}
   m_SizeDelta: {x: 423.45, y: 135.33}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &8065903663914838528
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 0963b7847b380c74085fcf90f73a22ec, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[0].name
-      value: jump1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 78abad222e9fb5140b8b386dd9341171, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[1].name
-      value: jump2
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: bc5841e8a1be657479772d0fe1003688, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[2].name
-      value: jump3
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: a25c8df8bf72db1409c17fce055b4ba0, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[3].name
-      value: landing1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[4].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 465c7772093ce9d45ad2ac49f94119de, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[4].name
-      value: death1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[5].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8ab5df096afcdc34493076a2f7e55446, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[5].name
-      value: woosh1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[6].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: f95aa25595a55ea448c2277a4f42f8a2, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[6].name
-      value: woosh2
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[7].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 11f2469a3a9e339468dfd78d2317b3e4, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[7].name
-      value: dot1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[8].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 11f2469a3a9e339468dfd78d2317b3e4, type: 3}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[8].name
-      value: dot1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[0].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[1].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[2].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[3].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[4].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[5].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[6].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[7].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[8].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[0].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[3].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[4].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[5].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[6].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[7].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 635457083330792276, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: sounds.Array.data[8].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 806.05316
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30.664457
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.13255402
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497512176274239264, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7721467710503752699, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
-      propertyPath: m_Name
-      value: Audio Manager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5e53116e4497c7043b23a8b947a8712e, type: 3}
 --- !u!19719996 &8128121722084281936
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -25387,6 +26016,10 @@ PrefabInstance:
     - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
       propertyPath: m_Name
       value: Collumn Bad 16x16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537986932436216176, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6092453816767625597, guid: abe59188fda29bd42bf019d862a2cf4d, type: 3}
       propertyPath: m_SortingOrder
