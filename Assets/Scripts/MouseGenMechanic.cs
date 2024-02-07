@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MouseGenMechanic : MonoBehaviour
 {
+    public Animator animator;
     public Camera MainCam;
     public GameObject GenObject;
     Vector3 mousePosition;
@@ -17,6 +18,7 @@ public class MouseGenMechanic : MonoBehaviour
         // spawns the object
         if (Input.GetMouseButtonDown(0)) 
         {
+            animator.SetTrigger("Gun");
             FindObjectOfType<AudioManager>().Play("dot1");
             Vector3 point = new Vector3();
             // declare a new variable to be my spawn Point

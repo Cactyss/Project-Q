@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_0
     originalName: 
-    pivot: {x: 1.2222222, y: 0}
+    pivot: {x: 0.33333334, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -141,7 +141,7 @@ ScriptedImporter:
     uvTransform: {x: 161, y: 84}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_1
     originalName: 
-    pivot: {x: 1.137931, y: 0}
+    pivot: {x: 0.31034487, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -161,7 +161,7 @@ ScriptedImporter:
     uvTransform: {x: 124, y: 84}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_2
     originalName: 
-    pivot: {x: 0.9722222, y: 0}
+    pivot: {x: 0.30555555, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -181,7 +181,7 @@ ScriptedImporter:
     uvTransform: {x: 96, y: 44}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_3
     originalName: 
-    pivot: {x: 1, y: 0}
+    pivot: {x: 0.33333337, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -201,7 +201,7 @@ ScriptedImporter:
     uvTransform: {x: 140, y: 44}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_4
     originalName: 
-    pivot: {x: 0.79545456, y: 0}
+    pivot: {x: 0.24999999, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -221,7 +221,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_5
     originalName: 
-    pivot: {x: 0.76744187, y: 0}
+    pivot: {x: 0.20930235, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -241,7 +241,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 4}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_6
     originalName: 
-    pivot: {x: 1.03125, y: 0}
+    pivot: {x: 0.28125003, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -261,7 +261,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 84}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_7
     originalName: 
-    pivot: {x: 1.03125, y: 0}
+    pivot: {x: 0.28125003, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -281,7 +281,7 @@ ScriptedImporter:
     uvTransform: {x: 44, y: 84}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_8
     originalName: 
-    pivot: {x: 1.03125, y: 0}
+    pivot: {x: 0.28125003, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -301,7 +301,7 @@ ScriptedImporter:
     uvTransform: {x: 84, y: 84}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_9
     originalName: 
-    pivot: {x: 1.0294118, y: 0}
+    pivot: {x: 0.3235294, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -321,7 +321,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 44}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_10
     originalName: 
-    pivot: {x: 1.0263158, y: 0}
+    pivot: {x: 0.39473686, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -341,7 +341,7 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 4}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_11
     originalName: 
-    pivot: {x: 1.0263158, y: 0}
+    pivot: {x: 0.39473686, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -361,7 +361,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 44}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_12
     originalName: 
-    pivot: {x: 1.0263158, y: 0}
+    pivot: {x: 0.39473686, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -381,7 +381,7 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 44}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_13
     originalName: 
-    pivot: {x: 1.0238096, y: 0}
+    pivot: {x: 0.45238099, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -401,7 +401,7 @@ ScriptedImporter:
     uvTransform: {x: 107, y: 4}
   - name: Blobert Rabbit Suit Shotgun Shooting R_Frame_14
     originalName: 
-    pivot: {x: 1.0238096, y: 0}
+    pivot: {x: 0.45238099, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -432,7 +432,7 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 27
         height: 32
       spriteId: 8020de8569aeb2c4584dc2e22f684cac
@@ -440,7 +440,7 @@ ScriptedImporter:
       frameIndex: 1
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 29
         height: 32
       spriteId: 78d6ca3d4b4d52245829b53efa771d8e
@@ -448,7 +448,7 @@ ScriptedImporter:
       frameIndex: 2
       cellRect:
         x: 29
-        y: 0
+        y: 16
         width: 36
         height: 32
       spriteId: 9c7197c575cde0643acbc730390a7e4c
@@ -456,7 +456,7 @@ ScriptedImporter:
       frameIndex: 3
       cellRect:
         x: 28
-        y: 0
+        y: 16
         width: 36
         height: 32
       spriteId: 333b7b6d539a4fc428dd1091e7810c81
@@ -464,7 +464,7 @@ ScriptedImporter:
       frameIndex: 4
       cellRect:
         x: 29
-        y: 0
+        y: 16
         width: 44
         height: 32
       spriteId: 80526b73eab78b24c948bfe909834aee
@@ -472,7 +472,7 @@ ScriptedImporter:
       frameIndex: 5
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 43
         height: 32
       spriteId: bdbf50d367cc9a14eb756dfaa6b5a0db
@@ -480,7 +480,7 @@ ScriptedImporter:
       frameIndex: 6
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 32
         height: 32
       spriteId: 67788c9cd77ebb848ba15b4c305b11be
@@ -488,7 +488,7 @@ ScriptedImporter:
       frameIndex: 7
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 32
         height: 32
       spriteId: b074a0e556e16c140bf7e163be6253ab
@@ -496,7 +496,7 @@ ScriptedImporter:
       frameIndex: 8
       cellRect:
         x: 31
-        y: 0
+        y: 16
         width: 32
         height: 32
       spriteId: f64205780d9fc9d4ab7d1c93375504c2
@@ -504,7 +504,7 @@ ScriptedImporter:
       frameIndex: 9
       cellRect:
         x: 29
-        y: 0
+        y: 16
         width: 34
         height: 32
       spriteId: 2e6734bd6cc73d4408f6149b7c897688
@@ -512,7 +512,7 @@ ScriptedImporter:
       frameIndex: 10
       cellRect:
         x: 25
-        y: 0
+        y: 16
         width: 38
         height: 32
       spriteId: 31fe46825dd0d4d49a4fa5515b1d0a6e
@@ -520,7 +520,7 @@ ScriptedImporter:
       frameIndex: 11
       cellRect:
         x: 25
-        y: 0
+        y: 16
         width: 38
         height: 32
       spriteId: a7b0def0192674440a39ea3f11f48e0e
@@ -528,7 +528,7 @@ ScriptedImporter:
       frameIndex: 12
       cellRect:
         x: 25
-        y: 0
+        y: 16
         width: 38
         height: 32
       spriteId: 200d5e9b3e811a942af66d83367c1087
@@ -536,7 +536,7 @@ ScriptedImporter:
       frameIndex: 13
       cellRect:
         x: 21
-        y: 0
+        y: 16
         width: 42
         height: 32
       spriteId: e122577faf2b9b74f92c610baa23403b
@@ -544,7 +544,7 @@ ScriptedImporter:
       frameIndex: 14
       cellRect:
         x: 21
-        y: 0
+        y: 16
         width: 42
         height: 32
       spriteId: 17acaad61e908604fa8099f49d98e9de
@@ -553,4 +553,4 @@ ScriptedImporter:
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 32}
+  canvasSize: {x: 80, y: 64}

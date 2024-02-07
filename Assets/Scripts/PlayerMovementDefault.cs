@@ -55,7 +55,7 @@ public class PlayerMovementTest : MonoBehaviour
         stopVector = new Vector2(1, 1);
         downVector = new Vector2(1, 1); 
         jumpVector = new Vector2(1, 1);
-        boxSize = new Vector2(1f, 0.5f);
+        boxSize = new Vector2(1f, 1f);
         castDistance = 1;
         spawnPos = player.position;
         bouncy = false;
@@ -317,6 +317,7 @@ public class PlayerMovementTest : MonoBehaviour
         // Reset is player is off the map (down too far)
         if (player.transform.position.y < -10)
         {
+            FindObjectOfType<AudioManager>().Play("Fall1");
             ResetPlayer();
         }
     }
@@ -363,10 +364,14 @@ public class PlayerMovementTest : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "death")
+        if (collision.gameObject.tag.Equals("death"))
         {
             FindObjectOfType<AudioManager>().Play("death1");
             ResetPlayer();
+        }
+        if (collision.gameObject.tag.Equals("dot"))
+        {
+            FindObjectOfType<AudioManager>().Play("dot1");
         }
     }
     public void SetNewCheckpoint()

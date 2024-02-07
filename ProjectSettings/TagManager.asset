@@ -8,6 +8,7 @@ TagManager:
   - Checkpoint
   - death
   - click mechanic
+  - dot
   layers:
   - Default
   - TransparentFX
