@@ -21,8 +21,8 @@ TagManager:
   - Background - Collide
   - Foreground - No Collide
   - Locked
-  - 
-  - 
+  - Collider
+  - NonCollider
   - 
   - 
   - 
