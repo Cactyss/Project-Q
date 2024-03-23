@@ -5,15 +5,26 @@ using TMPro;
 using UnityEngine;
 using Ink.Runtime;
 using Unity.VisualScripting;
+using UnityEngine.SearchService;
+using System;
+using System.Security.Cryptography.X509Certificates;
+using UnityEngine.Rendering;
 
 public class DialogueManager : MonoBehaviour
 {
+    private const string SPEAKER_TAG = "speaker";
+    private const string PORTRAIT_TAG = "portrait";
+    private const string LAYOUT_TAG = "layout";
+
     private KeyCode SubmitKeybind;
     private static DialogueManager instance;
 
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private Animator portraitAnimator;
+    private Animator layoutAnimator;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
@@ -33,6 +44,7 @@ public class DialogueManager : MonoBehaviour
     }
     private void Start()
     {
+        layoutAnimator = dialoguePanel.GetComponent<Animator>();
         SubmitKeybind = KeyCode.Space;
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
@@ -64,6 +76,11 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
+        //reset dialouge  UI
+        displayNameText.text = "???";
+        portraitAnimator.Play("default");
+        layoutAnimator.Play("right");
+
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
@@ -79,6 +96,8 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text = currentStory.Continue();
             // display choices if any
             DisplayChoices();
+
+            HandleTags(currentStory.currentTags);
         }
         else
         {
@@ -123,5 +142,53 @@ public class DialogueManager : MonoBehaviour
     {
         currentStory.ChooseChoiceIndex(i);
         ContinueStory();
+    }
+
+    private void HandleTags(List<String> tags)
+    {
+        foreach (string tag in tags)
+        {
+            //make a list w/ the tag and tag value
+            string[] splitTag = tag.Split(':');
+            if (splitTag.Length != 2)
+            {
+                Debug.LogWarning("Tag failed to parse correctly" + tag);
+            }
+            string tagValue = splitTag[1].Trim();
+            string tagKey = splitTag[0].Trim();
+
+           
+            switch (tagKey)
+            {
+                case SPEAKER_TAG:
+                    displayNameText.text = tagValue;
+                    break;
+                case PORTRAIT_TAG:
+                    portraitAnimator.Play(tagValue);
+                    // if the previous Play() call failed it won't be playing, so play the default portrait
+                    if (!isPlaying(portraitAnimator, tagValue))
+                    {
+                        portraitAnimator.Play("default");
+                    }
+                    break;
+                case LAYOUT_TAG:
+                    layoutAnimator.Play(tagValue);
+                    Debug.Log(tagKey + tagValue);
+                    break;
+                default:
+                    Debug.LogWarning("Tag isn't one of the defined keys: " + tag);
+                    break;
+            }
+        }
+    }
+
+
+    private bool isPlaying(Animator a, String stateName)
+    {
+        if (a.GetCurrentAnimatorStateInfo(0).IsName(stateName) && a.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+        {
+            return true;
+        }
+        return false;
     }
 }
