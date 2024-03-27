@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ScriptActivator : MonoBehaviour
@@ -16,8 +14,8 @@ public class ScriptActivator : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == player.gameObject)
-            {
-            obby.SetActive (OnCollide);
-            }
+        {
+            obby.SetActive(OnCollide);
+        }
     }
 }

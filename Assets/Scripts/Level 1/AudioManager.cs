@@ -1,6 +1,12 @@
-using UnityEngine.Audio;
-using UnityEngine;
 using System;
+using UnityEngine;
+/* Unmerged change from project 'Assembly-CSharp.Player'
+Before:
+using System;
+After:
+using UnityEngine.Audio;
+*/
+
 
 public class AudioManager : MonoBehaviour // this class was created by BRACKEYS, please check em out on ytube if you want to learn unity
 {
@@ -11,8 +17,8 @@ public class AudioManager : MonoBehaviour // this class was created by BRACKEYS,
     {
         if (instance == null)
         { instance = this; }
-        else 
-        { 
+        else
+        {
             Destroy(gameObject);
             return;
         }

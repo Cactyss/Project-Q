@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class FollowSomething : MonoBehaviour
@@ -19,8 +16,8 @@ public class FollowSomething : MonoBehaviour
         smoothSpeed = 0.15f;
         x = -10;
         y = 0;
-        offset = new Vector3 (x, y, 0);
-        
+        offset = new Vector3(x, y, 0);
+
     }
 
     // Update is called once per frame

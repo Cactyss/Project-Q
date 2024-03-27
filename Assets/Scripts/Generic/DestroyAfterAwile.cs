@@ -1,21 +1,30 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
 public class DestroyAfterAwile : MonoBehaviour
+
+/* Unmerged change from project 'Assembly-CSharp.Player'
+Before:
 {
     
     // Start is called before the first frame update
+After:
+{
+
+    // Start is called before the first frame update
+*/
+{
+
+    // Start is called before the first frame update
     void Awake()
     {
-        StartCoroutine(Destroy()); 
-  
+        StartCoroutine(Destroy());
+
     }
     private IEnumerator Destroy()
     {
         yield return new WaitForSeconds(41);
-      
+
         Destroy(this.gameObject);
     }
 }

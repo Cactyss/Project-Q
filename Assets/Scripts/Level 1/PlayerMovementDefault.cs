@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering;
 
 public class PlayerMovementTest : MonoBehaviour
 {
@@ -14,7 +10,7 @@ public class PlayerMovementTest : MonoBehaviour
     public float maxspeed;
     public bool gravityYes;
     public float gravity;
-    private Vector2 spawnPos; 
+    private Vector2 spawnPos;
     public bool bouncy;
     public LayerMask ground;
     private float castDistance;
@@ -41,7 +37,7 @@ public class PlayerMovementTest : MonoBehaviour
     private Vector2 faceLeftValue;
     private Vector2 faceRightValue;
     public Animator animator;
-   
+
     private void Start()
     {
         animator.SetBool("isGrounded", true);
@@ -53,7 +49,7 @@ public class PlayerMovementTest : MonoBehaviour
         boostValue = 15;
         speedVector2 = new Vector2(1, 1);
         stopVector = new Vector2(1, 1);
-        downVector = new Vector2(1, 1); 
+        downVector = new Vector2(1, 1);
         jumpVector = new Vector2(1, 1);
         boxSize = new Vector2(1f, 1f);
         castDistance = 1;
@@ -85,7 +81,7 @@ public class PlayerMovementTest : MonoBehaviour
     }
     void Update()
     {
-    
+
         /** Does Update() mean that movement is tied to fps? **/
 
         ChangeVariables();
@@ -149,8 +145,19 @@ public class PlayerMovementTest : MonoBehaviour
             {
                 SeteVelocityTemp();
                 player.velocity = new Vector2(velocityTemp * -1, player.velocity.y);
+
+                /* Unmerged change from project 'Assembly-CSharp.Player'
+                Before:
+                            }
+
+                            /**
+                After:
+                            }
+
+                            /**
+                */
             }
-            
+
             /**
             else if (player.velocity.x > -maxspeed)
             {//speed up to maxspeed at a decelerating rate
@@ -165,17 +172,28 @@ public class PlayerMovementTest : MonoBehaviour
     }
     //Checks for stop input
     public void playerMoveStop()
+
+    /* Unmerged change from project 'Assembly-CSharp.Player'
+    Before:
+        {
+
+            //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
+    After:
+        {
+
+            //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
+    */
     {
-        
+
         //Stopping When Hold "S", and player not traveling up too fast to allow the jumppad to work when holding S
         if (Input.GetKey("s") && player.velocity.y < 20)
         {
             shouldStop = true;
             //instant stop
-             // { player.velocity = new Vector2(0, player.velocity.y); }
+            // { player.velocity = new Vector2(0, player.velocity.y); }
 
             // exponential stop
-            if (player.velocity.x > 0.05f) 
+            if (player.velocity.x > 0.05f)
             { //stop all x movement exponentially
                 //player.velocity = (new Vector2(player.velocity.x * 0.99f, player.velocity.y));
                 player.velocity = player.velocity + (new Vector2(-40 * Time.deltaTime, 0));
@@ -202,7 +220,7 @@ public class PlayerMovementTest : MonoBehaviour
     }
     public void playerMoveBoost()
     {
-        if(Input.GetKeyDown(KeyCode.J) && satiated >= 25 && isGrounded)
+        if (Input.GetKeyDown(KeyCode.J) && satiated >= 25 && isGrounded)
         {
             boostValue = player.velocity.x * 3f;
             if (player.velocity.x > 0)
@@ -214,7 +232,7 @@ public class PlayerMovementTest : MonoBehaviour
                 boostValue = Mathf.Abs(boostValue) * -1;
             }
             //BOOST with J
-            player.velocity = new Vector2(player.velocity.x + boostValue , player.velocity.y * 1.3f);
+            player.velocity = new Vector2(player.velocity.x + boostValue, player.velocity.y * 1.3f);
             //player.velocity = new Vector2(player.velocity.x + player.velocity.x * boostValue, player.velocity.y);
             satiated = satiated - 25;
             Debug.Log("J");
@@ -266,7 +284,7 @@ public class PlayerMovementTest : MonoBehaviour
 
         if (player.velocity.y < -0.5 && player.velocity.y > -18 && gravityYes)
         {
-           // player.velocity = player.velocity + new Vector2(0, player.velocity.y * gravity * Time.deltaTime);
+            // player.velocity = player.velocity + new Vector2(0, player.velocity.y * gravity * Time.deltaTime);
             player.AddForce(new Vector2(0, gravity * Time.deltaTime));
         }
     }
@@ -297,10 +315,10 @@ public class PlayerMovementTest : MonoBehaviour
 
     public void OnCollisionStay2D(Collision2D collision)
     {
-        
+
         if (collision.gameObject.tag == "Blue" && Input.GetKey(KeyCode.K) && satiated < 50)
         {
-           
+
             satiated = satiated + 25;
             Debug.Log(satiated);
             //Destroy(collision.gameObject); Disable or destroy?
@@ -377,6 +395,6 @@ public class PlayerMovementTest : MonoBehaviour
     public void SetNewCheckpoint()
     {
         spawnPos = player.transform.position;
-        
+
     }
 }

@@ -1,9 +1,18 @@
 using System.Collections;
-using System.Collections.Generic;
+using
+/* Unmerged change from project 'Assembly-CSharp.Player'
+Before:
 using UnityEngine;
 using TMPro;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+After:
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+*/
+UnityEngine;
 
 public class PlayerSettings1 : MonoBehaviour
 {
@@ -23,7 +32,7 @@ public class PlayerSettings1 : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             SettingsPanel.SetActive(!SettingsPanel.activeSelf);
-           // otherCanvasOne.SetActive(!SettingsPanel.activeSelf);
+            // otherCanvasOne.SetActive(!SettingsPanel.activeSelf);
             otherCanvasTwo.SetActive(!SettingsPanel.activeSelf);
 
             if (SettingsPanel.activeSelf)
@@ -67,16 +76,16 @@ public class PlayerSettings1 : MonoBehaviour
         ThirdPanel.SetActive(true);
         FirstPanel.SetActive(false);
     }
-    
+
     public void callGoodJob()
     {//called by changing the input field ground/air speeds
      //   GoodJobText.SetActive(true);
-        StartCoroutine(GoodJob()); 
+        StartCoroutine(GoodJob());
     }
     private IEnumerator GoodJob()
     {
         //waits for a few seconds before turning off the good job text
         yield return new WaitForSecondsRealtime(3);
-      //  GoodJobText.SetActive(false);
+        //  GoodJobText.SetActive(false);
     }
 }

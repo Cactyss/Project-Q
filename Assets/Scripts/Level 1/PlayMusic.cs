@@ -1,6 +1,3 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayMusic : MonoBehaviour
@@ -168,9 +165,9 @@ public class PlayMusic : MonoBehaviour
         song4.Stop();
         song5.Stop();
         bridge.Stop();
-    /*foreach (Sound audioS in manager.sounds)
-    {
-        audioS.source.Stop();
-    } */
+        /*foreach (Sound audioS in manager.sounds)
+        {
+            audioS.source.Stop();
+        } */
     }
 }

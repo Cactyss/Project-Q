@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CameraSize : MonoBehaviour
@@ -8,7 +5,7 @@ public class CameraSize : MonoBehaviour
     GameObject cam;
     Camera Mycamera;
     // Use this for initialization
-	void Start()
+    void Start()
     {
         Mycamera = cam.GetComponent<Camera>();
         Mycamera.orthographicSize = 8.534866f; // Size u want to start with
@@ -35,7 +32,7 @@ public class CameraSize : MonoBehaviour
                 Mycamera.orthographicSize = 6; // Min size 
             }
         }
-    } 
+    }
 }
 
 

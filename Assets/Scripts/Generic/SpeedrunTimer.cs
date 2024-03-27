@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,9 +19,9 @@ public class SpeedrunTimer : MonoBehaviour
             startTime = DateTime.Now;
             PlayerPrefs.SetString("StartTime", startTime.ToString());
         }
-        else 
-        { 
-            startTime = System.DateTime.Parse(PlayerPrefs.GetString("startTime")); 
+        else
+        {
+            startTime = System.DateTime.Parse(PlayerPrefs.GetString("startTime"));
         }
     }
     private void Update()

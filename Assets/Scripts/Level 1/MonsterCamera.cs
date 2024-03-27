@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterCamera : MonoBehaviour
@@ -36,7 +34,7 @@ public class MonsterCamera : MonoBehaviour
     void FixedUpdate()
     {
         MyCamera.transform.position = Vector3.SmoothDamp(MyCamera.transform.position, target.position + new Vector3(0, 10, -10), ref velocity, smoothSpeed);
-        
+
         if (camerab.orthographicSize < 45)
         {
             camerab.orthographicSize = camerab.orthographicSize + 10 * Time.deltaTime;

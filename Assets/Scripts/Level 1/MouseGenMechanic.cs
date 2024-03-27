@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -12,11 +10,11 @@ public class MouseGenMechanic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
 
-        
+
+
         // spawns the object
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0))
         {
             animator.SetTrigger("Gun");
             FindObjectOfType<AudioManager>().Play("dot1");
@@ -32,7 +30,7 @@ public class MouseGenMechanic : MonoBehaviour
             point = MainCam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, MainCam.nearClipPlane));
             // set my spawn point variable by converting mousePos from screen space into world space
             //Instantiate(GenObject, mousePosition + new Vector3(0,0,-10) ,new quaternion (0,0,0, 0));
-            Instantiate(GenObject, point, new quaternion(0,0,0,0));
+            Instantiate(GenObject, point, new quaternion(0, 0, 0, 0));
             //GenObject.transform.position = point;
         }
     }

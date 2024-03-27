@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +9,7 @@ public class NextScene : MonoBehaviour
     private void Start()
     {
         if (timerObject != null)
-        { 
+        {
             timerObject.GetComponent<SpeedrunTimer>().SetSpeedrunTime();
         }
         StartCoroutine(GoNextScene());

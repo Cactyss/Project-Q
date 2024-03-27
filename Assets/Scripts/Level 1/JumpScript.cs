@@ -1,11 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
-using UnityEngine.TextCore.Text;
 
 public class JumpScript : MonoBehaviour
 {//so this little script makes it so when the player tries to jump a text popup randomizes and says "jump", or something similar,
@@ -38,9 +34,9 @@ public class JumpScript : MonoBehaviour
     public TMP_FontAsset seventeen;
     public TMP_FontAsset eightteen;
     public GameObject text;
-    
-   
-    
+
+
+
     void Start()
     {
         colory = 0;
@@ -49,7 +45,7 @@ public class JumpScript : MonoBehaviour
         size = 0;
         duration = 0;
         version = 0;
-                fonts = new List<TMP_FontAsset>
+        fonts = new List<TMP_FontAsset>
                 {
                     one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eightteen
                 };
@@ -57,7 +53,7 @@ public class JumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             rotate = UnityEngine.Random.Range(-40, 40);
             size = UnityEngine.Random.Range(0.2f, 2f);
@@ -67,7 +63,7 @@ public class JumpScript : MonoBehaviour
             texty = UnityEngine.Random.Range(1, 100);
             xlocal = UnityEngine.Random.Range(0, 700);
             ylocal = UnityEngine.Random.Range(0, 300);
-  
+
             StartCoroutine(jump(rotate, size, duration, version, texty, xlocal, ylocal));
         }
     }
@@ -79,11 +75,11 @@ public class JumpScript : MonoBehaviour
         if (texty > 20 && texty <= 50) { text.GetComponent<TMP_Text>().SetText("Hop!"); }
         if (texty > 50) { text.GetComponent<TMP_Text>().SetText("Jump!"); }
         if (colory == 1) { text.GetComponent<TMP_Text>().color = Color.blue; }
-        else if(colory == 2) { text.GetComponent<TMP_Text>().color = Color.red; }
-        else if(colory == 3) { text.GetComponent<TMP_Text>().color = Color.yellow; }
-        else if(colory == 4) { text.GetComponent<TMP_Text>().color = Color.green; }
-        else if(colory == 5) { text.GetComponent<TMP_Text>().color = Color.white; }
-        else if(colory == 6) { text.GetComponent<TMP_Text>().color = Color.cyan; }
+        else if (colory == 2) { text.GetComponent<TMP_Text>().color = Color.red; }
+        else if (colory == 3) { text.GetComponent<TMP_Text>().color = Color.yellow; }
+        else if (colory == 4) { text.GetComponent<TMP_Text>().color = Color.green; }
+        else if (colory == 5) { text.GetComponent<TMP_Text>().color = Color.white; }
+        else if (colory == 6) { text.GetComponent<TMP_Text>().color = Color.cyan; }
         text.transform.position = new Vector3(xlocal, ylocal, 0);
         text.transform.rotation = new Quaternion(1, 1, 1, r);
         text.transform.localScale = new Vector3(s, s, 1);
@@ -94,6 +90,6 @@ public class JumpScript : MonoBehaviour
         text.SetActive(true);
         yield return new WaitForSeconds(d);
         text.SetActive(false);
-        
+
     }
 }

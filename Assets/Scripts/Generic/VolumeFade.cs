@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class VolumeFade : MonoBehaviour  //https://forum.unity.com/threads/anyone-know-how-to-make-2d-audio-fade-audio-source-by-distance-to-cam-audio-listener.993974/
