@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     private const string DELETE_CUSTOM = "del";
 
     //ink tags
+    private const string SOUND_TAG = "sound";
     private const string NAME_TAG = "name";
     private const string IMAGE_TAG = "image";
     private const string LAYOUT_TAG = "layout";
@@ -19,9 +20,13 @@ public class DialogueManager : MonoBehaviour
     private const string TYPING_SPEED = "typingspeed";
     private const string AUTO_SKIP = "autoskip";
     //TODO: add ink tags (or tie to the portrait tag): sound effect, font, font color, font size, delay until next dialogue
-    [Header("Text Parameters")]
+    [Header("Parameters and Tags")]
     [SerializeField] private float defaultTypingSpeed = 0.04f;
     private float typingSpeed;
+    private string defaultTypingSound;
+    private string currentTypingSound;
+    private Sound1 defaultTypingSound1;
+    private Sound1 currentTypingSound1;
 
     private Coroutine displayLineCoroutine;
     private bool canContinueToNextLine = false;
@@ -58,6 +63,21 @@ public class DialogueManager : MonoBehaviour
     }
     private void Start()
     {
+
+        bool asdf = false;
+        foreach (Sound1 s in FindObjectOfType<AudioManager1>().sounds)
+        {
+            if (s.name == "default")
+            {
+                defaultTypingSound1 = s;
+                asdf = true;
+            }
+        }
+        if (!asdf)
+        {
+            Debug.Log("didnt find defauklt");
+        }
+        defaultTypingSound = "default";
         typingSpeed = defaultTypingSpeed;
         layoutAnimator = dialoguePanel.GetComponent<Animator>();
         dialogueIsPlaying = false;
@@ -146,9 +166,9 @@ public class DialogueManager : MonoBehaviour
             HideChoices();
 
             //dont allow player to skip onto the next line before they see the current line fully printed out
-
+            bool skip = false;
             canContinueToNextLine = false;
-            bool addedAngleBracket = false;
+            bool addedAngleBracket = true;
             bool isAddingRichTextTag = false;
             bool isAddingCustomText = false;
             StringBuilder customText = new StringBuilder();
@@ -161,7 +181,7 @@ public class DialogueManager : MonoBehaviour
                 if (canSkipTyping && Input.GetKey(SubmitKeybind) && letters > 5)
                 {
                     //dialogueText.text = line;
-                    typingSpeed = 0f;
+                    skip = true;
                 }
                 if ((letter == '<' || isAddingCustomText))
                 {
@@ -169,10 +189,12 @@ public class DialogueManager : MonoBehaviour
                     {
                         isAddingCustomText = true;
                         isAddingRichTextTag = false;
+                        addedAngleBracket = true;
                     }
                     else
                     {
                         isAddingRichTextTag = true;
+                        addedAngleBracket = false;
                     }
                     if (isAddingCustomText)
                     {
@@ -202,7 +224,6 @@ public class DialogueManager : MonoBehaviour
                 else if (isAddingRichTextTag)
                 {//add the rich text tag info and stuff
                     if (!addedAngleBracket) { dialogueText.text += '<'; addedAngleBracket = true; }
-                    isAddingRichTextTag = true;
                     dialogueText.text += letter;
                     if (letter == '>')
                     {
@@ -214,16 +235,16 @@ public class DialogueManager : MonoBehaviour
                     dialogueText.text += letter;
                     letters += 1;
                     //TODO: add a thing that makes it so a word jumps to the next line if it can't fit completely on the current line
-                    if (!letter.ToString().Equals(" "))
-                    {
-
-                        //TODO: add sound effects for typing character by character
+                    if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != null)
+                    {//TODO: if we are adding a letter and not skipping, play a sound
+                        FindObjectOfType<AudioManager>().PlayTypingSound(currentTypingSound);
                     }
                     else
                     {
                         //TODO: maybe add here a thing for people who pause after completing a word?
                     }
-                    yield return new WaitForSeconds(typingSpeed);
+                    //if we are skipping to the end, type all letters without delay
+                    if (!skip) { yield return new WaitForSeconds(typingSpeed); }
                 }
             }
             if (autoSkip > 0)
@@ -279,10 +300,15 @@ public class DialogueManager : MonoBehaviour
     }
     private void resetEncounterTags()
     {
+        //reset typing sound
+        currentTypingSound = defaultTypingSound;
         //reset dialouge  UI
         displayNameText.text = "???";
         //portraitAnimator.Play("default");
         layoutAnimator.Play("right");
+        //reset image
+        portraitAnimator.Play("default");
+
     }
     private void resetLineTags()
     {
@@ -321,6 +347,20 @@ public class DialogueManager : MonoBehaviour
                 {//if it's a two word tag then it goes to this switch statement
                     case NAME_TAG:
                         displayNameText.text = tagValue;
+                        break;
+                    case SOUND_TAG:
+                        //currentTypingSound = tagValue;
+                        Debug.Log("set curentsound to " + tagValue);
+                        bool soundFound = false;
+                        foreach (Sound1 s in FindObjectOfType<AudioManager1>().sounds)
+                        {
+                            if (s.name == tagValue)
+                            {
+                                currentTypingSound1 = s;
+                                soundFound = true;
+                            }
+                        } 
+                        if (!soundFound) { Debug.LogWarning("Sound Name: "  + tagValue + " was not found in the list of sounds"); }
                         break;
                     case TYPING_SPEED:
                         typingSpeed = float.Parse(tagValue);

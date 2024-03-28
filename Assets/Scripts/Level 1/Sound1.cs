@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class Sound
+public class Sound1
 {
     // this class was created by BRACKEYS, please check em out on ytube if you want to learn unity
     public string name;

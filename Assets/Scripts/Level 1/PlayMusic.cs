@@ -18,25 +18,25 @@ public class PlayMusic : MonoBehaviour
     bool song2played;
     bool song3played;
     bool song4played;
-    bool song5played;
+    //bool song5played;
     bool allsongsplayed;
     bool shouldPlayMusic;
     bool end;
-    AudioManager manager;
+    AudioManager1 manager;
     void Awake()
     {
         intro1.Play();
     }
     private void Start()
     {
-        manager = FindObjectOfType<AudioManager>();
+        manager = FindObjectOfType<AudioManager1>();
         end = false;
         intro1played = false;
         song1played = true;
         song2played = true;
         song3played = true;
         song4played = true;
-        song5played = true;
+        //song5played = true;
         allsongsplayed = true;
         shouldPlayMusic = true;
     }
@@ -104,7 +104,7 @@ public class PlayMusic : MonoBehaviour
         {
             song4played = true;
             song5.Play();
-            song5played = false;
+            //song5played = false;
         }
     }
     void WaitToRepeatSongs()

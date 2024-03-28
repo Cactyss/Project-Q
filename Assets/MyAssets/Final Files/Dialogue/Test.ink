@@ -1,7 +1,7 @@
 -> main
 
 === main ===
-Are you nan wonan or onner? #speaker:Brandon
+Are you nan wonan or onner? #name:Brandon
  + [nan]
 -> Display("nan")
  + [wonan]
@@ -9,5 +9,5 @@ Are you nan wonan or onner? #speaker:Brandon
  + [onner]
  -> Display("onner")
  ===Display(this)===
- NIce, i'm {this} sometimes #speaker:Brandon
+ NIce, i'm {this} sometimes #name:Brandon
  -> END

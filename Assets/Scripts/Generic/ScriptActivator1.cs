@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ScriptDeactivator : MonoBehaviour
+public class ScriptDeactivator1 : MonoBehaviour
 {
     public GameObject obby; //thing to deactiavte
     public GameObject player; //thing to hit to deactivate

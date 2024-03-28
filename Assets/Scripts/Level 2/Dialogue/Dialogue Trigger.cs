@@ -34,6 +34,7 @@ public class DialogueTrigger : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        FindObjectOfType<AudioManager1>().Play("default");
         if (collision.tag == "Player")
         {
             playerInRange = true;
