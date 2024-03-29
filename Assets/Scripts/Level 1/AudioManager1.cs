@@ -14,7 +14,7 @@ public class AudioManager1 : MonoBehaviour // this class was created by BRACKEYS
 
     public static AudioManager1 instance;
     private void Awake()
-    {
+    {        transform.SetParent(null);
         if (instance == null)
         { instance = this; }
         else
@@ -30,9 +30,9 @@ public class AudioManager1 : MonoBehaviour // this class was created by BRACKEYS
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
-        }
+            s.source.playOnAwake = false;
+        } 
     }
-
     public void Play(string name)
     {
         Sound1 s = Array.Find(sounds, sound => sound.name == name);
@@ -43,6 +43,6 @@ public class AudioManager1 : MonoBehaviour // this class was created by BRACKEYS
         }
         s.source.Play();
 
-        //CODE TO PLAY SOUND ANYWHERE: FindObjectOfType<AudioManager>().Play("name of the sound");
+        //CODE TO PLAY SOUND ANYWHERE: FindObjectOfType<AudioManager1>().Play("name of the sound");
     }
 }

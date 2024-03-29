@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 /* Unmerged change from project 'Assembly-CSharp.Player'
 Before:
@@ -15,6 +16,7 @@ public class AudioManager : MonoBehaviour // this class was created by BRACKEYS,
     public static AudioManager instance;
     private void Awake()
     {
+        transform.SetParent(null);
         if (instance == null)
         { instance = this; }
         else
@@ -30,11 +32,12 @@ public class AudioManager : MonoBehaviour // this class was created by BRACKEYS,
     {
         foreach (Sound s in list)
         {
-            s.source = gameObject.AddComponent<AudioSource>();
+            s.source = gameObject.AddComponent<AudioSource>(); 
             s.source.clip = s.clip;
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
+            s.source.playOnAwake = false;
         }
     }
     public void Play(string name)
@@ -46,20 +49,15 @@ public class AudioManager : MonoBehaviour // this class was created by BRACKEYS,
             return;
         }
         s.source.Play();
-
-        //CODE TO PLAY SOUND ANYWHERE: FindObjectOfType<AudioManager>().Play("name of the sound");
-    }
+    }//CODE TO PLAY SOUND ANYWHERE: FindObjectOfType<AudioManager>().Play("name of the sound");
     public void PlayTypingSound(string name)
     {
-        Sound s = Array.Find(typingSounds, sound => sound.name == name);
-        if (s == null)
+        Sound z = Array.Find(typingSounds, sound => sound.name == name);
+        if (z == null)
         {
-            Debug.LogWarning("trying to play typingSound: " + name + ", that isn't there/spelled wrong");
+            Debug.LogWarning("trying to play typing sound: " + name + ", that isn't there/spelled wrong");
             return;
         }
-        Debug.Log("playing " + name + " at " + s.volume);
-        s.source.Play();
-
-        //CODE TO PLAY TYPING SOUND ANYWHERE: FindObjectOfType<AudioManager>().PlayTypingSound("name of the sound");
-    }
+        z.source.Play();
+    }//CODE TO PLAY SOUND ANYWHERE: FindObjectOfType<AudioManager>().PlayTypingSound("name of the sound");
 }

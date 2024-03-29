@@ -23,12 +23,10 @@ public class PlayMusic : MonoBehaviour
     bool shouldPlayMusic;
     bool end;
     AudioManager1 manager;
-    void Awake()
-    {
-        intro1.Play();
-    }
+
     private void Start()
     {
+        intro1.Play();
         manager = FindObjectOfType<AudioManager1>();
         end = false;
         intro1played = false;

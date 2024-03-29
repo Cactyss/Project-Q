@@ -7,7 +7,7 @@ public class DialogueTrigger : MonoBehaviour
 
     [Header("Visual Cue")]
     [SerializeField] private GameObject visualCue;
-
+    public AudioManager a;
     [Header("Ink JSON")]
     [SerializeField] private TextAsset text;
     private bool playerInRange;
@@ -34,7 +34,6 @@ public class DialogueTrigger : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        FindObjectOfType<AudioManager1>().Play("default");
         if (collision.tag == "Player")
         {
             playerInRange = true;

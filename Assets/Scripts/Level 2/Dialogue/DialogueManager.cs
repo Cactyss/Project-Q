@@ -23,10 +23,10 @@ public class DialogueManager : MonoBehaviour
     [Header("Parameters and Tags")]
     [SerializeField] private float defaultTypingSpeed = 0.04f;
     private float typingSpeed;
-    private string defaultTypingSound;
+    private string defaultTypingSound = "default";
     private string currentTypingSound;
-    private Sound1 defaultTypingSound1;
-    private Sound1 currentTypingSound1;
+
+    public AudioManager a;
 
     private Coroutine displayLineCoroutine;
     private bool canContinueToNextLine = false;
@@ -49,10 +49,11 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI[] choicesText;
     private Story currentStory;
     private String currentLine;
-    public bool dialogueIsPlaying { get; private set; }
+    public bool dialogueIsPlaying { get; private set; } = false;
 
     private void Awake()
     {
+        transform.SetParent(null);
         if (instance != null)
         {
             Debug.LogWarning("multiple instances of dialogue manager in scene");
@@ -63,24 +64,8 @@ public class DialogueManager : MonoBehaviour
     }
     private void Start()
     {
-
-        bool asdf = false;
-        foreach (Sound1 s in FindObjectOfType<AudioManager1>().sounds)
-        {
-            if (s.name == "default")
-            {
-                defaultTypingSound1 = s;
-                asdf = true;
-            }
-        }
-        if (!asdf)
-        {
-            Debug.Log("didnt find defauklt");
-        }
-        defaultTypingSound = "default";
         typingSpeed = defaultTypingSpeed;
         layoutAnimator = dialoguePanel.GetComponent<Animator>();
-        dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         choicesText = new TextMeshProUGUI[choices.Length];
         portraitClips = portraitAnimator.runtimeAnimatorController.animationClips;
@@ -235,7 +220,7 @@ public class DialogueManager : MonoBehaviour
                     dialogueText.text += letter;
                     letters += 1;
                     //TODO: add a thing that makes it so a word jumps to the next line if it can't fit completely on the current line
-                    if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != null)
+                    if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != "silent")
                     {//TODO: if we are adding a letter and not skipping, play a sound
                         FindObjectOfType<AudioManager>().PlayTypingSound(currentTypingSound);
                     }
@@ -349,18 +334,7 @@ public class DialogueManager : MonoBehaviour
                         displayNameText.text = tagValue;
                         break;
                     case SOUND_TAG:
-                        //currentTypingSound = tagValue;
-                        Debug.Log("set curentsound to " + tagValue);
-                        bool soundFound = false;
-                        foreach (Sound1 s in FindObjectOfType<AudioManager1>().sounds)
-                        {
-                            if (s.name == tagValue)
-                            {
-                                currentTypingSound1 = s;
-                                soundFound = true;
-                            }
-                        } 
-                        if (!soundFound) { Debug.LogWarning("Sound Name: "  + tagValue + " was not found in the list of sounds"); }
+                        currentTypingSound = tagValue;
                         break;
                     case TYPING_SPEED:
                         typingSpeed = float.Parse(tagValue);
@@ -397,13 +371,5 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-    }
-    private bool isPlaying(Animator a, String stateName)
-    {
-        if (a.GetCurrentAnimatorStateInfo(0).IsName(stateName) && a.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-        {
-            return true;
-        }
-        return false;
     }
 }
