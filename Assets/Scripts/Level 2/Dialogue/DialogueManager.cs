@@ -5,11 +5,20 @@ using System.Collections.Generic;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using System.Runtime.CompilerServices;
+using UnityEngine.UIElements;
 
 public class DialogueManager : MonoBehaviour
 {
+
+    // variable for the load_globals.ink JSON
+    [Header("Load Globals JSON")]
+    [SerializeField] private TextAsset loadGlobalsJSON;
+
     //custom rich text tags
     private const string DELETE_CUSTOM = "del";
+    private const string WAIT_CUSTOM = "wait";
+    private const string SPACE_CUSTOM = "space";
 
     //ink tags
     private const string SOUND_TAG = "sound";
@@ -25,8 +34,6 @@ public class DialogueManager : MonoBehaviour
     private float typingSpeed;
     private string defaultTypingSound = "default";
     private string currentTypingSound;
-
-    public AudioManager a;
 
     private Coroutine displayLineCoroutine;
     private bool canContinueToNextLine = false;
@@ -51,6 +58,8 @@ public class DialogueManager : MonoBehaviour
     private String currentLine;
     public bool dialogueIsPlaying { get; private set; } = false;
 
+    private DialogueVariables dialogueVariables;
+
     private void Awake()
     {
         transform.SetParent(null);
@@ -59,8 +68,8 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("multiple instances of dialogue manager in scene");
         }
         instance = this;
-
-
+        // pass that variable to the DIalogueVariables constructor in the Awake method
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
     }
     private void Start()
     {
@@ -100,6 +109,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
+        dialogueVariables.StartListening(currentStory);
+
         resetEncounterTags();
         ContinueStory();
     }
@@ -129,6 +140,8 @@ public class DialogueManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(0.1f);
 
+        dialogueVariables.StopListening(currentStory);
+
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
@@ -157,6 +170,7 @@ public class DialogueManager : MonoBehaviour
             bool isAddingRichTextTag = false;
             bool isAddingCustomText = false;
             StringBuilder customText = new StringBuilder();
+            int bracketIndex = 0;
             //empty the displayed text
             dialogueText.text = "";
             foreach (char letter in line.ToCharArray())
@@ -168,50 +182,97 @@ public class DialogueManager : MonoBehaviour
                     //dialogueText.text = line;
                     skip = true;
                 }
-                if ((letter == '<' || isAddingCustomText))
+                if (letter == '<')
                 {
-                    if (isAddingRichTextTag)
-                    {
-                        isAddingCustomText = true;
-                        isAddingRichTextTag = false;
-                        addedAngleBracket = true;
-                    }
-                    else
+                    bracketIndex++;
+                    if (bracketIndex == 1)
                     {
                         isAddingRichTextTag = true;
                         addedAngleBracket = false;
                     }
-                    if (isAddingCustomText)
+                    if (bracketIndex == 2)
                     {
-                        if (letter != '<' && letter != '>')
+                        isAddingCustomText = true;
+                        isAddingRichTextTag = false;
+                    }
+                    if (bracketIndex != 1 && bracketIndex != 2)
+                    {
+                        Debug.LogWarning("you typed three angle brackets in a row in an ink file, this is bad");
+                    }
+                }
+                else if (isAddingCustomText)
+                {
+                    if (letter != '<' && letter != '>')
+                    {
+                        customText.Append(letter);
+                    }
+                    if (letter == '>')
+                    {// '>' means that the tag is fully typed out, so now we Handle Custom Tags
+                        Debug.Log(customText.ToString());
+
+                        string[] splitTag = customText.ToString().Split(':');
+                        if (splitTag.Length != 2)
                         {
-                            customText.Append(letter);
-                        }
-                        if (letter == '>')
-                        {
-                            Debug.Log(customText.ToString());
-                            isAddingCustomText = false;
-                            //Handle Custom Tags
                             switch (customText.ToString())
-                            {
+                            {//if it's a one word tag then it goes to this switch statement
                                 case DELETE_CUSTOM:
+                                    Debug.Log("delete triggered");
                                     DisplayChoices();
                                     yield return new WaitForSeconds(0.5f);
                                     HideChoices();
                                     dialogueText.text = "";
                                     break;
                                 default:
+                                    Debug.LogWarning("Tag wasn't one of the custom tags" + tag);
                                     break;
                             }
                         }
+                        else
+                        {
+                            string tagValue = splitTag[1].Trim();
+                            string tagKey = splitTag[0].Trim();
+                            switch (tagKey)
+                            {//if it's a two word tag then it goes to this switch statement
+                                case WAIT_CUSTOM:
+                                    Debug.Log("wait triggered");
+                                    yield return new WaitForSeconds(float.Parse(tagValue));
+                                    break;
+                                case SPACE_CUSTOM:
+                                    Debug.Log("space triggered");
+                                    int Index = int.Parse(tagValue);
+                                    while (Index > 0)
+                                    {
+                                        dialogueText.text += " ";
+                                        Index--;
+
+                                    }
+                                    break;
+                                default:
+                                    Debug.LogWarning("Tag wasn't one of the custom tags" + tag);
+                                    break;
+                            }
+                        }
+                        customText = new StringBuilder();
+                        bracketIndex = 0;
+                        addedAngleBracket = true;
+                        isAddingCustomText = false;
+                        isAddingRichTextTag = false;
                     }
                 }
                 else if (isAddingRichTextTag)
                 {//add the rich text tag info and stuff
-                    if (!addedAngleBracket) { dialogueText.text += '<'; addedAngleBracket = true; }
+                    if (!addedAngleBracket)
+                    {
+                        dialogueText.text += '<';
+                        addedAngleBracket = true;
+                    }
                     dialogueText.text += letter;
                     if (letter == '>')
                     {
+                        customText = new StringBuilder();
+                        bracketIndex = 0;
+                        addedAngleBracket = true;
+                        isAddingCustomText = false;
                         isAddingRichTextTag = false;
                     }
                 }
@@ -220,7 +281,7 @@ public class DialogueManager : MonoBehaviour
                     dialogueText.text += letter;
                     letters += 1;
                     //TODO: add a thing that makes it so a word jumps to the next line if it can't fit completely on the current line
-                    if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != "silent")
+                    if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != "silent" && !isAddingCustomText)
                     {//TODO: if we are adding a letter and not skipping, play a sound
                         FindObjectOfType<AudioManager>().PlayTypingSound(currentTypingSound);
                     }
@@ -371,5 +432,16 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public Ink.Runtime.Object GetVariableState(string variableName)
+    {
+        Ink.Runtime.Object variableValue = null;
+        dialogueVariables.variables.TryGetValue(variableName, out variableValue);
+        if (variableValue == null)
+        {
+            Debug.LogWarning("tried to get variable of name: " + variableName + " but didn't find in dictionary");
+        }
+        return variableValue;
     }
 }
