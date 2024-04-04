@@ -149,7 +149,7 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator DisplayLine(string line)
     {
-        //if the line is blank we skip it because it's prob not supposed to be blank
+        //if the line is blank we skip it because it's probably not supposed to be blank
         if (line.Trim() == "")
         {
             Debug.LogWarning("skipped a blank line");
@@ -157,9 +157,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            int characters = 0;
-            int letters = 0;
-            //hides certian UI while typing out dialogue
+            //hides certain UI while typing out dialogue
             canContinueIcon.SetActive(false);
             HideChoices();
 
@@ -171,15 +169,18 @@ public class DialogueManager : MonoBehaviour
             bool isAddingCustomText = false;
             StringBuilder customText = new StringBuilder();
             int bracketIndex = 0;
+            int visibleCharacters = 0;
+
             //empty the displayed text
-            dialogueText.text = "";
+            dialogueText.text = line;
+            dialogueText.maxVisibleCharacters = 0;
+
             foreach (char letter in line.ToCharArray())
             {
-                characters++;
+                visibleCharacters++;
                 //allows the dialogue to be skipped after 3 characters are displayed
-                if (canSkipTyping && Input.GetKey(SubmitKeybind) && letters > 5)
+                if (canSkipTyping && Input.GetKey(SubmitKeybind) && visibleCharacters > 5)
                 {
-                    //dialogueText.text = line;
                     skip = true;
                 }
                 if (letter == '<')
@@ -207,7 +208,8 @@ public class DialogueManager : MonoBehaviour
                         customText.Append(letter);
                     }
                     if (letter == '>')
-                    {// '>' means that the tag is fully typed out, so now we Handle Custom Tags
+                    {
+                        // '>' means that the tag is fully typed out, so now we Handle Custom Tags
                         Debug.Log(customText.ToString());
 
                         string[] splitTag = customText.ToString().Split(':');
@@ -220,12 +222,23 @@ public class DialogueManager : MonoBehaviour
                                     DisplayChoices();
                                     yield return new WaitForSeconds(0.5f);
                                     HideChoices();
-                                    dialogueText.text = "";
+
+                                    // Calculate the number of characters to delete
+                                    int charactersToDelete = Mathf.Min(dialogueText.maxVisibleCharacters, dialogueText.text.Length);
+
+                                    // Adjust maxVisibleCharacters to hide the portion that has already been revealed
+                                    dialogueText.maxVisibleCharacters -= charactersToDelete;
+
+                                    // Adjust the displayed text to remove the deleted portion
+                                    dialogueText.text = dialogueText.text.Substring(charactersToDelete);
+
                                     break;
                                 default:
                                     Debug.LogWarning("Tag wasn't one of the custom tags" + tag);
                                     break;
                             }
+                            // Remove the custom tag from the dialogueText.text
+                            dialogueText.text = dialogueText.text.Replace("<<" + customText.ToString() + ">", "");
                         }
                         else
                         {
@@ -239,18 +252,20 @@ public class DialogueManager : MonoBehaviour
                                     break;
                                 case SPACE_CUSTOM:
                                     Debug.Log("space triggered");
-                                    int Index = int.Parse(tagValue);
-                                    while (Index > 0)
-                                    {
-                                        dialogueText.text += " ";
-                                        Index--;
-
-                                    }
+                                    int spaceCount = int.Parse(tagValue);
+                                    // Calculate the number of characters that are currently visible
+                                    int visibleChars = Mathf.Min(dialogueText.text.Length, dialogueText.maxVisibleCharacters);
+                                    // Insert spaces at the point where the visible text ends
+                                    dialogueText.text = dialogueText.text.Insert(visibleChars, new string(' ', spaceCount));
+                                    // Increase maxVisibleCharacters to make the added spaces visible
+                                    dialogueText.maxVisibleCharacters += spaceCount;
                                     break;
                                 default:
                                     Debug.LogWarning("Tag wasn't one of the custom tags" + tag);
                                     break;
                             }
+                            // Remove the custom tag from the dialogueText.text
+                            dialogueText.text = dialogueText.text.Replace("<<" + customText.ToString() + ">", "");
                         }
                         customText = new StringBuilder();
                         bracketIndex = 0;
@@ -278,8 +293,8 @@ public class DialogueManager : MonoBehaviour
                 }
                 else
                 {//add the letter and play a sound
-                    dialogueText.text += letter;
-                    letters += 1;
+                 //dialogueText.text += letter;
+                    dialogueText.maxVisibleCharacters++;
                     //TODO: add a thing that makes it so a word jumps to the next line if it can't fit completely on the current line
                     if (!letter.ToString().Equals(" ") && !skip && currentTypingSound != "silent" && !isAddingCustomText)
                     {//TODO: if we are adding a letter and not skipping, play a sound
@@ -443,5 +458,22 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("tried to get variable of name: " + variableName + " but didn't find in dictionary");
         }
         return variableValue;
+    }
+
+    public void OnApplicationQuit()
+    {
+        SaveInk();
+    }
+
+    public void SaveInk()
+    {
+        if (dialogueVariables != null)
+        {
+            dialogueVariables.SaveVariables();
+        }
+        else
+        {
+            Debug.LogWarning("Tried to save Ink Variables but dialogueVariables was null");
+        }
     }
 }

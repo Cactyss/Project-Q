@@ -8,11 +8,18 @@ using System.Security.Cryptography.X509Certificates;
 public class DialogueVariables
 {
     public Dictionary<string, Ink.Runtime.Object> variables { get; private set; }
-
+    private Story globalVariablesStory;
     public DialogueVariables(TextAsset loadGlobalsJSON)
     {
         // create the story
-        Story globalVariablesStory = new Story(loadGlobalsJSON.text);
+        globalVariablesStory = new Story(loadGlobalsJSON.text);
+        // if we have saved data, load it on startup
+        if (true)//if saveload system has saved data to load on startup
+        {
+            string jsonState = null; //TODO: set jsonState to the data
+            //TODO: save the INK variables data to data system
+            // globalVariablesStory.state.LoadJson(jsonState); //TODO: remove the comment after jsonState is implemented
+        }
 
         // initialize the dictionary
         variables = new Dictionary<string, Ink.Runtime.Object>();
@@ -52,6 +59,16 @@ public class DialogueVariables
         foreach(KeyValuePair<string, Ink.Runtime.Object> variable in variables)
         {
             story.variablesState.SetGlobal(variable.Key, variable.Value);
+        }
+    }
+    
+    public void SaveVariables()
+    {
+        if (globalVariablesStory != null)
+        {
+            //load the current state ofa ll our variables to the globals stroy
+            // VariablesToStory(globalVariablesStory);
+            //TODO: here we save the globalVariablesStory.state.ToJson() to our save system
         }
     }
 }
