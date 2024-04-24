@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: f4bd64e23cd339f4da126b02c6a1d04e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Cloud toot
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 51
+      height: 40
+    spriteID: 7303cf8d14a698541bf40c42254133d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Cloud toot_Frame_1
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 4
+      width: 51
+      height: 40
+    spriteID: ced0bd287ae7e7540a653d6cd936acf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 4}
+  - name: Cloud toot_Frame_2
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 4
+      width: 51
+      height: 40
+    spriteID: 0b996f85edb374648b292ab27354a113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 4}
+  - name: Cloud toot_Frame_3
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 51
+      height: 40
+    spriteID: a153f8d89d73b52429dcfa33358c3258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 4}
+  - name: Cloud toot_Frame_4
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 52
+      width: 51
+      height: 40
+    spriteID: e51dec8b091ea714db55ac51876455b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 52}
+  - name: Cloud toot_Frame_5
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 52
+      width: 51
+      height: 40
+    spriteID: cafe157e31899654489b53d25b3c7862
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 52}
+  - name: Cloud toot_Frame_6
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 52
+      width: 51
+      height: 40
+    spriteID: 059876cf592a9ea4f9993146d1d4cfb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 52}
+  - name: Cloud toot_Frame_7
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 52
+      width: 51
+      height: 40
+    spriteID: 6b910e5cf8fe13445ab2d6f2bb77c5bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 52}
+  - name: Cloud toot_Frame_8
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 100
+      width: 51
+      height: 40
+    spriteID: 61ffa08a9f6667c45ae034002c10d143
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 100}
+  - name: Cloud toot_Frame_9
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 100
+      width: 51
+      height: 40
+    spriteID: 118e7a94bd13d0c4da94abe01e535354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 100}
+  - name: Cloud toot_Frame_10
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 100
+      width: 51
+      height: 40
+    spriteID: f6117cae95753b4488016fb4b36404d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 100}
+  - name: Cloud toot_Frame_11
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 100
+      width: 51
+      height: 40
+    spriteID: cf4fb032fd97398428cecd0e6535775f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 100}
+  - name: Cloud toot_Frame_12
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 51
+      height: 40
+    spriteID: 69e2a5b6dc09c2a48bc875e44b9c4757
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Cloud toot_Frame_13
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 148
+      width: 51
+      height: 40
+    spriteID: 6bcf3bedf45afd54896068c4f82b184e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 148}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1913436219
+    name: Cloud toot
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cloud toot_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 7303cf8d14a698541bf40c42254133d6
+    - name: Cloud toot_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: ced0bd287ae7e7540a653d6cd936acf5
+    - name: Cloud toot_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 0b996f85edb374648b292ab27354a113
+    - name: Cloud toot_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: a153f8d89d73b52429dcfa33358c3258
+    - name: Cloud toot_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: e51dec8b091ea714db55ac51876455b7
+    - name: Cloud toot_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: cafe157e31899654489b53d25b3c7862
+    - name: Cloud toot_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 059876cf592a9ea4f9993146d1d4cfb1
+    - name: Cloud toot_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 6b910e5cf8fe13445ab2d6f2bb77c5bb
+    - name: Cloud toot_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 61ffa08a9f6667c45ae034002c10d143
+    - name: Cloud toot_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 118e7a94bd13d0c4da94abe01e535354
+    - name: Cloud toot_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: f6117cae95753b4488016fb4b36404d0
+    - name: Cloud toot_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: cf4fb032fd97398428cecd0e6535775f
+    - name: Cloud toot_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 69e2a5b6dc09c2a48bc875e44b9c4757
+    - name: Cloud toot_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 20
+        width: 51
+        height: 40
+      spriteId: 6bcf3bedf45afd54896068c4f82b184e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
