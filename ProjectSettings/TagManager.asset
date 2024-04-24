@@ -43,20 +43,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background - Collide
+    uniqueID: 720507875
+    locked: 0
   - name: Background - No Collide
     uniqueID: 1997881081
     locked: 0
-  - name: Background - Collide
-    uniqueID: 720507875
+  - name: Foreground - No Collide
+    uniqueID: 94421699
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 2279091179
-    locked: 0
-  - name: Foreground - No Collide
-    uniqueID: 94421699
     locked: 0
   - name: 
     uniqueID: 3581353393
