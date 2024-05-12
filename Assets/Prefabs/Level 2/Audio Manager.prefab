@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7162674504400649726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6164730961636349288}
+  - component: {fileID: 4266148364917343118}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6164730961636349288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162674504400649726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -162.23004, y: -751.66797, z: -4.653193}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4266148364917343118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162674504400649726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79bfc3c73a72294eae240a074455b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: jump1
+    clip: {fileID: 8300000, guid: 0963b7847b380c74085fcf90f73a22ec, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  typingSounds:
+  - name: burito
+    clip: {fileID: 8300000, guid: 11f2469a3a9e339468dfd78d2317b3e4, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: mystery
+    clip: {fileID: 8300000, guid: 78abad222e9fb5140b8b386dd9341171, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: default
+    clip: {fileID: 8300000, guid: bc5841e8a1be657479772d0fe1003688, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: blind
+    clip: {fileID: 8300000, guid: a25c8df8bf72db1409c17fce055b4ba0, type: 3}
+    volume: 1
+    loop: 0
+    pitch: 1
+    source: {fileID: 0}
